@@ -1,0 +1,14 @@
+# C/C++
+*.o
+
+# gprof
+*.gcno
+*.gcda
+
+# libraries
+*.a
+*.so
+
+# perf data
+*.data
+*.data.old

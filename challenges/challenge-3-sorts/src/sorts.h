@@ -3,11 +3,12 @@
  */
 void QuickSort(int *data, int count);
 void QuickSortBad(int *data, int count);
+void InsertSort(int arr[], int len);
+void HeapSort(int array[], int size);
+
 void Swap(int& a, int &b);
 int Partition(int* data, int left, int right);
 int BadPartition(int* data, int left, int right);
-void InsertSort(int arr[], int len);
-void HeapSort(int array[], int size);
 void repairTop(int array[], int bottom, int topIndex);
 void swap(int array[], int left, int right);
 

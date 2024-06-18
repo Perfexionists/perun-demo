@@ -2,46 +2,43 @@
 #include <random>
 #include <chrono>
 #include <climits>
+#include <string.h>
+#include <iostream>
+#include <fstream>
+#include <sstream>
 #include "sorts.h"
 
-const int MAX_SORT_ARR_LEN = 5000;
-const int SORT_ARR_LEN_INC = 50;
-
-int main() {
-
-    // init the rng
-    std::random_device rd;
-    std::mt19937 gen(rd());
-    std::uniform_int_distribution<> dis(0, INT_MAX - 1);
-
+int main(int argc, char** argv) {
     // perform all sorts on scaling data
-    for(int i = SORT_ARR_LEN_INC; i <= MAX_SORT_ARR_LEN; i += SORT_ARR_LEN_INC) {
-        int *input = new int[i];
-        int *input_save = new int[i];
-        for(int j = 0; j < i; j++) {
-            input_save[j] = dis(gen);
+    const char* filename = argv[2];
+    std::ifstream inputFile(filename);
+    if(!inputFile) {
+        std::cerr << "Unable to open file: " << filename << std::endl;
+        return 1;
+    }
+
+    std::vector<int> numbers;
+    std::string line;
+    while (std::getline(inputFile, line)) {
+        std::istringstream iss(line);
+        int number;
+        while(iss >> number) {
+            numbers.push_back(number);
         }
-
-
-        for(int j = 0; j < i; j++) {
-            input[j] = input_save[j];
-        }
-
-        QuickSort(input, i);
-
-        for(int j = 0; j < i; j++) {
-            input[j] = input_save[j];
-        }
-
-        InsertSort(input, i);
-
-        for(int j = 0; j < i; j++) {
-            input[j] = input_save[j];
-        }
-
-        HeapSort(input, i);
-
-        delete[] input;
+    }
+    inputFile.close();
+    int* input = &numbers[0];
+    
+    if (strcmp(argv[1], "quicksort") == 0) {
+        QuickSort(input, numbers.size());
+    } else if (strcmp(argv[1], "quicksort2") == 0) {
+        QuickSortBad(input, numbers.size());
+    } else if (strcmp(argv[1], "insertsort") == 0) {
+        InsertSort(input, numbers.size());
+    } else if (strcmp(argv[1], "heapsort") == 0) {
+        HeapSort(input, numbers.size());
+    } else {
+        std::cerr << "Unknown sort " << argv[1];
     }
 
     return 0;
