@@ -60,6 +60,8 @@ int main(int argc, char** argv) {
     std::mt19937 gen(rd());
     std::uniform_int_distribution<> dis(0, INT_MAX-1);
 
+    std::cout << "Starting the search" << std::endl;
+
     for (int i = 0; i < 10; i++) {
         if (use_skiplists) {
             SLList_search(&list, i);

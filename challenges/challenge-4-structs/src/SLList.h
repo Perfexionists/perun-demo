@@ -21,6 +21,14 @@ void SLList_init(SLList *list) {
 void SLList_insert(SLList *list, int num) {
     SLLelem *elem = new SLLelem;
     elem->key = num;
+    elem->next = list->head;
+    list->head = elem;
+    list->size++;
+}
+
+void SLList_ordered_insert(SLList *list, int num) {
+    SLLelem *elem = new SLLelem;
+    elem->key = num;
     elem->next = nullptr;
 
     if (list->head == nullptr || list->head->key >= num) {
