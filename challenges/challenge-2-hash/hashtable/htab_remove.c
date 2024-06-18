@@ -20,7 +20,7 @@ bool htab_remove(htab_t * t, char * key)
 	if(t==NULL || key ==NULL)
 		return false;
 
-	unsigned int index = hash_function(key) % htab_bucket_count(t);
+	unsigned int index = t->hash_function(key) % htab_bucket_count(t);
 
 	struct htab_listitem * prev = NULL;
 

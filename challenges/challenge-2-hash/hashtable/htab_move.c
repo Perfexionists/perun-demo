@@ -13,9 +13,9 @@
 * Chova sa ako move konstruktor: vytvori a inicializuje
   tabulku s datami z tabulky t2, t2 nakoniec ostane prazdna a alokovana
 */
-htab_t * htab_move(unsigned newsize,htab_t * t2)
+htab_t * htab_move(unsigned newsize, htab_t * t2)
 {
-	htab_t * new = htab_init(newsize);
+	htab_t * new = htab_init(newsize, t2->hash_function);
 	
 	if(t2==NULL || new ==NULL)
 		return NULL;

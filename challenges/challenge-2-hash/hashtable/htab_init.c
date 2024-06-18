@@ -6,13 +6,14 @@
   Preložené: gcc 5.4.0 (merlin)
 **/
 
+#include <string.h>
 #include "private_hash_table.h"
 #include "hash_table.h"
 
 /* 
 * Chova sa ako konstruktor: vytvori a inicializuje tabulku 
 */
-htab_t * htab_init(unsigned size)
+htab_t * htab_init(unsigned size, unsigned int (*hash_func)(const char*))
 {
 	htab_t * htab = (htab_t *) malloc(sizeof(htab) + size * sizeof(struct htab_listitem *) );
 	if (htab==NULL)
@@ -20,6 +21,7 @@ htab_t * htab_init(unsigned size)
 
 	htab->arr_size=size;
 	htab->n=0;
+	htab->hash_function = hash_func;
 	for(unsigned i=0; i < size; i++)
 		htab->ptr[i]=NULL;
 	return htab;	

@@ -27,7 +27,7 @@ struct htab_listitem * htab_lookup_add(htab_t * t, char * key)
 		return tmp;
 	}
 
-	unsigned int index = hash_function(key) % htab_bucket_count(t);
+	unsigned int index = t->hash_function(key) % htab_bucket_count(t);
 	struct htab_listitem * new = (struct htab_listitem *)malloc(sizeof(struct htab_listitem));
 	
 	new->key=(char *)malloc (sizeof(char) * (strlen(key)+1));

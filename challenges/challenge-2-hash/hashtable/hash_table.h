@@ -26,7 +26,7 @@ typedef struct htab_t htab_t;
 
 
 //konstruktor: vytvorenie a inicializacia tabulky
-htab_t * htab_init(unsigned size);
+htab_t * htab_init(unsigned size, unsigned int (*hash_name)(const char*));
 
 //move konstruktor: vytvorenie a inicializacia tabulky dat z tabulky t2, t2 ostane prazdna a alokovana
 htab_t * htab_move(unsigned newsize,htab_t * t2);
@@ -56,6 +56,8 @@ void htab_clear(htab_t * t);
 void htab_free(htab_t * t);
 
 //hashovacia funkcia
-unsigned int hash_function(const char *str); 
+unsigned int djb_hash_function(const char *str); 
+unsigned int java_hash_function(const char *str); 
+unsigned int original_hash_function(const char *str); 
 
 #endif // HASH_TABLE_H

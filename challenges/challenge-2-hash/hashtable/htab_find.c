@@ -20,7 +20,7 @@ struct htab_listitem * htab_find(htab_t * t, char * key)
 	if(t==NULL || key ==NULL)
 		return NULL;
 
-	unsigned int index = hash_function(key) % htab_bucket_count(t);
+	unsigned int index = t->hash_function(key) % htab_bucket_count(t);
 
 	for(struct htab_listitem * tmp = t->ptr[index];tmp!=NULL;tmp = tmp->next)
 	{

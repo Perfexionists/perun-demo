@@ -36,26 +36,32 @@ void print_tab(char * key, unsigned data)
 */
 int main (int argc, char ** argv)
 {
-	(void)argc;
-	printf("hello: %s\n",argv[1]);
+	unsigned int (*hfunc) (const char*);
+	if (strcmp(argv[1], "djb") == 0) {
+		hfunc = djb_hash_function;
+	} else if (strcmp(argv[1], "java") == 0) {
+		hfunc = java_hash_function;
+	} else {
+		hfunc = original_hash_function;
+	}
+	
 	// inicializacia tabulky 
-	htab_t * tab = htab_init(SIZE_OF_TABLE);
+	htab_t * tab = htab_init(SIZE_OF_TABLE, hfunc);
 
 	if(tab==NULL)
 	{
 		fprintf(stderr,"Chyba pri alokacii pamate\n");
 		return 1;
 	}	
-	
+
 	char str[MAX] = {0};
 	int c;
 
-	FILE * fp = fopen(argv[1],"r");
+	FILE * fp = fopen(argv[2],"r");
 	/* nacitavanie slov a pridavanie do tabulky
 	* ak narazi na EOF, testuje ci este nieco neostalo nacitane ak ano
 	* prida do tabulky a vyskoci z cyklu
 	*/
-	printf("hello: %s\n",argv[1]);
 	while((c = get_word(str,MAX,fp))!=EOF || strcmp(str,"")!=0)
 	{
 		if(htab_lookup_add(tab,str)==NULL)

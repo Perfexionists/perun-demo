@@ -13,9 +13,10 @@
 
 struct htab_t
 {
-	unsigned arr_size; // velkost pola ukazatelov
-	unsigned n; // aktualny pocet zaznamov
-	struct htab_listitem *ptr []; // pole ukazatelov na stukturu polozky
+    unsigned arr_size; // velkost pola ukazatelov
+    unsigned n; // aktualny pocet zaznamov
+    unsigned int (*hash_function)(const char* str);
+    struct htab_listitem *ptr []; // pole ukazatelov na stukturu polozky
 };
 
 
