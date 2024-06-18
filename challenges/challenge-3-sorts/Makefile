@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-gdwarf -std=c++11 -pedantic -Wall -Wextra
+CFLAGS=-O0 -g -std=c++17 -pedantic -Wall -Wextra -fno-omit-frame-pointer
 
 main: src/sort_file.cpp src/sorts.h
 	$(CC) $(CFLAGS) -o sort_file src/sort_file.cpp
