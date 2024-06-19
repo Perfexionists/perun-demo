@@ -5,6 +5,14 @@
 #include <limits>
 #include <algorithm>
 #include <sstream>
+#include <numeric>
+
+std::string join(const std::vector<std::string>& alist, const char* sep) {
+    return std::accumulate(alist.begin(), alist.end(), std::string(), 
+    [sep](const std::string& a, const std::string& b) -> std::string { 
+        return a + (a.length() > 0 ? sep : "") + b; 
+    } );
+}
 
 int levenshteinDistance(const std::string& s1, const std::string& s2) {
     int m = s1.size();
@@ -64,31 +72,29 @@ double computeTransformationCost(const std::vector<std::string>& trace1, const s
 }
 
 // Function to read traces from a file
-std::vector<std::string> readTraces(const std::string& filename) {
-    std::vector<std::string> traces;
+std::vector<std::vector<std::string>> readTraces(const std::string& filename) {
+    std::vector<std::vector<std::string>> traces;
     std::ifstream file(filename);
     std::string line;
     while (std::getline(file, line)) {
-        traces.push_back(line);
+        traces.push_back(split(line, ','));
     }
     return traces;
 }
 
 // Function to find the best corresponding trace from baseline for each trace in target
-void findBestCorrespondingTraces(const std::vector<std::string>& baseline, const std::vector<std::string>& target) {
+void findBestCorrespondingTraces(const std::vector<std::vector<std::string>>& baseline, const std::vector<std::vector<std::string>>& target) {
     for (const auto& targetTrace : target) {
         double bestCorrespondence = std::numeric_limits<double>::max();
-        std::string bestTrace;
+        std::vector<std::string> bestTrace;
         for (const auto& baselineTrace : baseline) {
-            std::vector<std::string> baseVector = split(baselineTrace, ',');
-            std::vector<std::string> targetVector = split(targetTrace, ',');
-            double correspondence = computeTransformationCost(targetVector, baseVector, 0, 0);
+            double correspondence = computeTransformationCost(targetTrace, baselineTrace, 0, 0);
             if (correspondence < bestCorrespondence) {
                 bestCorrespondence = correspondence;
                 bestTrace = baselineTrace;
             }
         }
-        std::cout << targetTrace << "\n" << bestTrace << "\n\n";
+        std::cout << join(targetTrace, ",") << "\n" << join(bestTrace, ",") << "\n\n";
     }
 }
 
@@ -98,8 +104,8 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    std::vector<std::string> baselineTraces = readTraces(argv[1]);
-    std::vector<std::string> targetTraces = readTraces(argv[2]);
+    std::vector<std::vector<std::string>> baselineTraces = readTraces(argv[1]);
+    std::vector<std::vector<std::string>> targetTraces = readTraces(argv[2]);
 
     findBestCorrespondingTraces(baselineTraces, targetTraces);
 
