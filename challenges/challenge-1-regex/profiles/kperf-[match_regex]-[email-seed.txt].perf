@@ -1,0 +1,4533 @@
+{
+  "resources": {
+    "syscall_return_via_sysret#0": {
+      "amount": [
+        595270
+      ]
+    },
+    "mem_cgroup_charge_statistics.isra.0#0": {
+      "amount": [
+        79474
+      ]
+    },
+    "_dl_relocate_object#0": {
+      "amount": [
+        361634
+      ]
+    },
+    "page_cache_ra_unbounded#0": {
+      "amount": [
+        111500
+      ]
+    },
+    "mem_cgroup_charge_statistics.isra.0#1": {
+      "amount": [
+        169722
+      ]
+    },
+    "get_mem_cgroup_from_mm#0": {
+      "amount": [
+        40124
+      ]
+    },
+    "memcpy_erms#0": {
+      "amount": [
+        273600
+      ]
+    },
+    "__raw_callee_save___pv_queued_spin_unlock#0": {
+      "amount": [
+        49207
+      ]
+    },
+    "kmem_cache_alloc#0": {
+      "amount": [
+        45358
+      ]
+    },
+    "p9pdu_writef#0": {
+      "amount": [
+        47678
+      ]
+    },
+    "try_to_wake_up#0": {
+      "amount": [
+        124880
+      ]
+    },
+    "is_cpu_allowed#0": {
+      "amount": [
+        84004
+      ]
+    },
+    "kthread_is_per_cpu#0": {
+      "amount": [
+        42640
+      ]
+    },
+    "enqueue_task_fair#0": {
+      "amount": [
+        39114
+      ]
+    },
+    "update_min_vruntime#0": {
+      "amount": [
+        40343
+      ]
+    },
+    "ttwu_do_wakeup#0": {
+      "amount": [
+        151163
+      ]
+    },
+    "set_next_buddy#0": {
+      "amount": [
+        95046
+      ]
+    },
+    "update_rq_clock#0": {
+      "amount": [
+        60642
+      ]
+    },
+    "p9pdu_readf#0": {
+      "amount": [
+        152707
+      ]
+    },
+    "__raw_callee_save___pv_queued_spin_unlock#1": {
+      "amount": [
+        52389
+      ]
+    },
+    "schedule#0": {
+      "amount": [
+        73223
+      ]
+    },
+    "__schedule#0": {
+      "amount": [
+        87139
+      ]
+    },
+    "finish_task_switch.isra.0#0": {
+      "amount": [
+        56804
+      ]
+    },
+    "set_next_entity#0": {
+      "amount": [
+        40277
+      ]
+    },
+    "kmem_cache_free.part.0#0": {
+      "amount": [
+        39201
+      ]
+    },
+    "__slab_free.isra.0#0": {
+      "amount": [
+        84115
+      ]
+    },
+    "copy_page#0": {
+      "amount": [
+        67434
+      ]
+    },
+    "filemap_map_pages#0": {
+      "amount": [
+        46503
+      ]
+    },
+    "page_add_file_rmap#0": {
+      "amount": [
+        74004
+      ]
+    },
+    "memcpy_erms#1": {
+      "amount": [
+        181203
+      ]
+    },
+    "check_preempt_wakeup#0": {
+      "amount": [
+        102067
+      ]
+    },
+    "memcpy_erms#2": {
+      "amount": [
+        112880
+      ]
+    },
+    "intel_pmu_disable_all#0": {
+      "amount": [
+        124590
+      ]
+    },
+    "dequeue_entity#0": {
+      "amount": [
+        135931
+      ]
+    },
+    "__mod_memcg_lruvec_state#0": {
+      "amount": [
+        80812
+      ]
+    },
+    "do_lookup_x#0": {
+      "amount": [
+        490925
+      ]
+    },
+    "__schedule#1": {
+      "amount": [
+        1209
+      ]
+    },
+    "finish_task_switch.isra.0#1": {
+      "amount": [
+        8257
+      ]
+    },
+    "__perf_event_task_sched_in#0": {
+      "amount": [
+        2643
+      ]
+    },
+    "__raw_callee_save___pv_queued_spin_unlock#2": {
+      "amount": [
+        912
+      ]
+    },
+    "std::allocator_traits<std::allocator<char> >::allocate#0": {
+      "amount": [
+        439423
+      ]
+    },
+    "__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::__normal_iterator#0": {
+      "amount": [
+        523062
+      ]
+    },
+    "std::__detail::_Scanner<char>::_M_get_token#0": {
+      "amount": [
+        364669
+      ]
+    },
+    "std::__cxx11::regex_traits<char>::transform_primary<char const*>#0": {
+      "amount": [
+        345483
+      ]
+    },
+    "asm_exc_page_fault#0": {
+      "amount": [
+        433984
+      ]
+    },
+    "native_flush_tlb_one_user#0": {
+      "amount": [
+        390524
+      ]
+    },
+    "check_preempt_curr#0": {
+      "amount": [
+        553350
+      ]
+    },
+    "_dl_fini#0": {
+      "amount": [
+        332702
+      ]
+    },
+    "alloc_empty_file#0": {
+      "amount": [
+        90288
+      ]
+    },
+    "memcpy_erms#3": {
+      "amount": [
+        187106
+      ]
+    },
+    "p9_client_rpc#0": {
+      "amount": [
+        1612
+      ]
+    },
+    "p9pdu_readf#1": {
+      "amount": [
+        175422
+      ]
+    },
+    "prepare_to_wait_event#0": {
+      "amount": [
+        37913
+      ]
+    },
+    "schedule#1": {
+      "amount": [
+        1384
+      ]
+    },
+    "__schedule#2": {
+      "amount": [
+        686
+      ]
+    },
+    "__raw_callee_save___pv_queued_spin_unlock#3": {
+      "amount": [
+        673
+      ]
+    },
+    "kmem_cache_free.part.0#1": {
+      "amount": [
+        152621
+      ]
+    },
+    "free_pages_and_swap_cache#0": {
+      "amount": [
+        267210
+      ]
+    },
+    "unmap_page_range#0": {
+      "amount": [
+        297222
+      ]
+    },
+    "ttwu_do_wakeup#1": {
+      "amount": [
+        275394
+      ]
+    },
+    "gcov_do_dump#0": {
+      "amount": [
+        471717
+      ]
+    },
+    "gcov_read_words#0": {
+      "amount": [
+        526826
+      ]
+    },
+    "gcov_write_words#0": {
+      "amount": [
+        793372
+      ]
+    },
+    "strcmp#0": {
+      "amount": [
+        236806
+      ]
+    },
+    "__intel_pmu_enable_all.isra.0#0": {
+      "amount": [
+        1
+      ]
+    },
+    "perf_event_task_tick#0": {
+      "amount": [
+        532
+      ]
+    }
+  },
+  "resource_type_map": {
+    "syscall_return_via_sysret#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "__GI___libc_write"
+        }
+      ],
+      "uid": "syscall_return_via_sysret"
+    },
+    "mem_cgroup_charge_statistics.isra.0#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_init_paths"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__mem_cgroup_charge"
+        },
+        {
+          "func": "charge_memcg"
+        }
+      ],
+      "uid": "mem_cgroup_charge_statistics.isra.0"
+    },
+    "_dl_relocate_object#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        }
+      ],
+      "uid": "_dl_relocate_object"
+    },
+    "page_cache_ra_unbounded#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        }
+      ],
+      "uid": "page_cache_ra_unbounded"
+    },
+    "mem_cgroup_charge_statistics.isra.0#1": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "add_to_page_cache_lru"
+        },
+        {
+          "func": "__add_to_page_cache_locked"
+        },
+        {
+          "func": "__mem_cgroup_charge"
+        },
+        {
+          "func": "charge_memcg"
+        }
+      ],
+      "uid": "mem_cgroup_charge_statistics.isra.0"
+    },
+    "get_mem_cgroup_from_mm#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "add_to_page_cache_lru"
+        },
+        {
+          "func": "__add_to_page_cache_locked"
+        },
+        {
+          "func": "__mem_cgroup_charge"
+        }
+      ],
+      "uid": "get_mem_cgroup_from_mm"
+    },
+    "memcpy_erms#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "_copy_to_iter"
+        }
+      ],
+      "uid": "memcpy_erms"
+    },
+    "__raw_callee_save___pv_queued_spin_unlock#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "_raw_spin_unlock_irqrestore"
+        }
+      ],
+      "uid": "__raw_callee_save___pv_queued_spin_unlock"
+    },
+    "kmem_cache_alloc#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "p9_client_prepare_req.part.0"
+        },
+        {
+          "func": "p9_fcall_init"
+        }
+      ],
+      "uid": "kmem_cache_alloc"
+    },
+    "p9pdu_writef#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "p9_client_prepare_req.part.0"
+        }
+      ],
+      "uid": "p9pdu_writef"
+    },
+    "try_to_wake_up#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "p9_fd_request"
+        },
+        {
+          "func": "queue_work_on"
+        },
+        {
+          "func": "__queue_work"
+        }
+      ],
+      "uid": "try_to_wake_up"
+    },
+    "is_cpu_allowed#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "p9_fd_request"
+        },
+        {
+          "func": "queue_work_on"
+        },
+        {
+          "func": "__queue_work"
+        },
+        {
+          "func": "try_to_wake_up"
+        }
+      ],
+      "uid": "is_cpu_allowed"
+    },
+    "kthread_is_per_cpu#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "p9_fd_request"
+        },
+        {
+          "func": "queue_work_on"
+        },
+        {
+          "func": "__queue_work"
+        },
+        {
+          "func": "try_to_wake_up"
+        },
+        {
+          "func": "is_cpu_allowed"
+        }
+      ],
+      "uid": "kthread_is_per_cpu"
+    },
+    "enqueue_task_fair#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "p9_fd_request"
+        },
+        {
+          "func": "queue_work_on"
+        },
+        {
+          "func": "__queue_work"
+        },
+        {
+          "func": "try_to_wake_up"
+        },
+        {
+          "func": "ttwu_do_activate"
+        }
+      ],
+      "uid": "enqueue_task_fair"
+    },
+    "update_min_vruntime#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "p9_fd_request"
+        },
+        {
+          "func": "queue_work_on"
+        },
+        {
+          "func": "__queue_work"
+        },
+        {
+          "func": "try_to_wake_up"
+        },
+        {
+          "func": "ttwu_do_activate"
+        },
+        {
+          "func": "enqueue_task_fair"
+        },
+        {
+          "func": "enqueue_entity"
+        },
+        {
+          "func": "update_curr"
+        }
+      ],
+      "uid": "update_min_vruntime"
+    },
+    "ttwu_do_wakeup#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "p9_fd_request"
+        },
+        {
+          "func": "queue_work_on"
+        },
+        {
+          "func": "__queue_work"
+        },
+        {
+          "func": "try_to_wake_up"
+        }
+      ],
+      "uid": "ttwu_do_wakeup"
+    },
+    "set_next_buddy#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "p9_fd_request"
+        },
+        {
+          "func": "queue_work_on"
+        },
+        {
+          "func": "__queue_work"
+        },
+        {
+          "func": "try_to_wake_up"
+        },
+        {
+          "func": "ttwu_do_wakeup"
+        },
+        {
+          "func": "check_preempt_curr"
+        },
+        {
+          "func": "check_preempt_wakeup"
+        }
+      ],
+      "uid": "set_next_buddy"
+    },
+    "update_rq_clock#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "p9_fd_request"
+        },
+        {
+          "func": "queue_work_on"
+        },
+        {
+          "func": "__queue_work"
+        },
+        {
+          "func": "try_to_wake_up"
+        }
+      ],
+      "uid": "update_rq_clock"
+    },
+    "p9pdu_readf#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "p9_parse_header"
+        }
+      ],
+      "uid": "p9pdu_readf"
+    },
+    "__raw_callee_save___pv_queued_spin_unlock#1": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "prepare_to_wait_event"
+        },
+        {
+          "func": "_raw_spin_unlock_irqrestore"
+        }
+      ],
+      "uid": "__raw_callee_save___pv_queued_spin_unlock"
+    },
+    "schedule#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        }
+      ],
+      "uid": "schedule"
+    },
+    "__schedule#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "schedule"
+        }
+      ],
+      "uid": "__schedule"
+    },
+    "finish_task_switch.isra.0#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "schedule"
+        },
+        {
+          "func": "__schedule"
+        }
+      ],
+      "uid": "finish_task_switch.isra.0"
+    },
+    "set_next_entity#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "schedule"
+        },
+        {
+          "func": "__schedule"
+        },
+        {
+          "func": "pick_next_task_fair"
+        }
+      ],
+      "uid": "set_next_entity"
+    },
+    "kmem_cache_free.part.0#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_req_put"
+        }
+      ],
+      "uid": "kmem_cache_free.part.0"
+    },
+    "__slab_free.isra.0#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_req_put"
+        },
+        {
+          "func": "kmem_cache_free.part.0"
+        }
+      ],
+      "uid": "__slab_free.isra.0"
+    },
+    "copy_page#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        }
+      ],
+      "uid": "copy_page"
+    },
+    "filemap_map_pages#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        }
+      ],
+      "uid": "filemap_map_pages"
+    },
+    "page_add_file_rmap#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "_dl_relocate_object"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "filemap_map_pages"
+        },
+        {
+          "func": "do_set_pte"
+        }
+      ],
+      "uid": "page_add_file_rmap"
+    },
+    "memcpy_erms#1": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "_copy_to_iter"
+        }
+      ],
+      "uid": "memcpy_erms"
+    },
+    "check_preempt_wakeup#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "p9_fd_request"
+        },
+        {
+          "func": "queue_work_on"
+        },
+        {
+          "func": "__queue_work"
+        },
+        {
+          "func": "try_to_wake_up"
+        },
+        {
+          "func": "ttwu_do_wakeup"
+        },
+        {
+          "func": "check_preempt_curr"
+        }
+      ],
+      "uid": "check_preempt_wakeup"
+    },
+    "memcpy_erms#2": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "p9_parse_header"
+        },
+        {
+          "func": "p9pdu_readf"
+        },
+        {
+          "func": "pdu_read"
+        }
+      ],
+      "uid": "memcpy_erms"
+    },
+    "intel_pmu_disable_all#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "schedule"
+        },
+        {
+          "func": "__schedule"
+        },
+        {
+          "func": "__perf_event_task_sched_out"
+        }
+      ],
+      "uid": "intel_pmu_disable_all"
+    },
+    "dequeue_entity#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "schedule"
+        },
+        {
+          "func": "__schedule"
+        },
+        {
+          "func": "dequeue_task_fair"
+        }
+      ],
+      "uid": "dequeue_entity"
+    },
+    "__mod_memcg_lruvec_state#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "wp_page_copy"
+        },
+        {
+          "func": "page_add_new_anon_rmap"
+        },
+        {
+          "func": "__mod_lruvec_page_state"
+        }
+      ],
+      "uid": "__mod_memcg_lruvec_state"
+    },
+    "do_lookup_x#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        }
+      ],
+      "uid": "do_lookup_x"
+    },
+    "__schedule#1": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "entry_SYSCALL_64_after_hwframe"
+        },
+        {
+          "func": "do_syscall_64"
+        },
+        {
+          "func": "__x64_sys_execve"
+        },
+        {
+          "func": "do_execveat_common.isra.0"
+        },
+        {
+          "func": "bprm_execve"
+        },
+        {
+          "func": "load_elf_binary"
+        },
+        {
+          "func": "__clear_user"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "schedule"
+        }
+      ],
+      "uid": "__schedule"
+    },
+    "finish_task_switch.isra.0#1": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "entry_SYSCALL_64_after_hwframe"
+        },
+        {
+          "func": "do_syscall_64"
+        },
+        {
+          "func": "__x64_sys_execve"
+        },
+        {
+          "func": "do_execveat_common.isra.0"
+        },
+        {
+          "func": "bprm_execve"
+        },
+        {
+          "func": "load_elf_binary"
+        },
+        {
+          "func": "__clear_user"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "schedule"
+        },
+        {
+          "func": "__schedule"
+        }
+      ],
+      "uid": "finish_task_switch.isra.0"
+    },
+    "__perf_event_task_sched_in#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "entry_SYSCALL_64_after_hwframe"
+        },
+        {
+          "func": "do_syscall_64"
+        },
+        {
+          "func": "__x64_sys_execve"
+        },
+        {
+          "func": "do_execveat_common.isra.0"
+        },
+        {
+          "func": "bprm_execve"
+        },
+        {
+          "func": "load_elf_binary"
+        },
+        {
+          "func": "__clear_user"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "schedule"
+        },
+        {
+          "func": "__schedule"
+        },
+        {
+          "func": "finish_task_switch.isra.0"
+        }
+      ],
+      "uid": "__perf_event_task_sched_in"
+    },
+    "__raw_callee_save___pv_queued_spin_unlock#2": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "entry_SYSCALL_64_after_hwframe"
+        },
+        {
+          "func": "do_syscall_64"
+        },
+        {
+          "func": "__x64_sys_execve"
+        },
+        {
+          "func": "do_execveat_common.isra.0"
+        },
+        {
+          "func": "bprm_execve"
+        },
+        {
+          "func": "load_elf_binary"
+        },
+        {
+          "func": "__clear_user"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "schedule"
+        },
+        {
+          "func": "__schedule"
+        },
+        {
+          "func": "finish_task_switch.isra.0"
+        }
+      ],
+      "uid": "__raw_callee_save___pv_queued_spin_unlock"
+    },
+    "std::allocator_traits<std::allocator<char> >::allocate#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "std::__cxx11::basic_regex<char, std::__cxx11::regex_traits<char> >::basic_regex<std::char_traits<char>, std::allocator<char> >"
+        },
+        {
+          "func": "std::__cxx11::basic_regex<char, std::__cxx11::regex_traits<char> >::_M_compile"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_Compiler"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_term"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_term"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_term"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_bracket_expression"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_bracket_matcher<false, false>"
+        },
+        {
+          "func": "std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_ready"
+        },
+        {
+          "func": "std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_make_cache"
+        },
+        {
+          "func": "std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_apply"
+        },
+        {
+          "func": "std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_apply"
+        },
+        {
+          "func": "std::__cxx11::regex_traits<char>::transform_primary<char const*>"
+        },
+        {
+          "func": "std::vector<char, std::allocator<char> >::vector<char const*, void>"
+        },
+        {
+          "func": "std::vector<char, std::allocator<char> >::_M_range_initialize<char const*>"
+        }
+      ],
+      "uid": "std::allocator_traits<std::allocator<char> >::allocate"
+    },
+    "__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::__normal_iterator#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "std::__cxx11::basic_regex<char, std::__cxx11::regex_traits<char> >::basic_regex<std::char_traits<char>, std::allocator<char> >"
+        },
+        {
+          "func": "std::__cxx11::basic_regex<char, std::__cxx11::regex_traits<char> >::_M_compile"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_Compiler"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_term"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_term"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_term"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_bracket_expression"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_bracket_matcher<false, false>"
+        },
+        {
+          "func": "std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_ready"
+        },
+        {
+          "func": "std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_make_cache"
+        },
+        {
+          "func": "std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_apply"
+        },
+        {
+          "func": "std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_apply"
+        },
+        {
+          "func": "std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::end"
+        }
+      ],
+      "uid": "__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::__normal_iterator"
+    },
+    "std::__detail::_Scanner<char>::_M_get_token#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "std::__cxx11::basic_regex<char, std::__cxx11::regex_traits<char> >::basic_regex<std::char_traits<char>, std::allocator<char> >"
+        },
+        {
+          "func": "std::__cxx11::basic_regex<char, std::__cxx11::regex_traits<char> >::_M_compile"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_Compiler"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_term"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_term"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_term"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_bracket_expression"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_match_token"
+        }
+      ],
+      "uid": "std::__detail::_Scanner<char>::_M_get_token"
+    },
+    "std::__cxx11::regex_traits<char>::transform_primary<char const*>#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "std::__cxx11::basic_regex<char, std::__cxx11::regex_traits<char> >::basic_regex<std::char_traits<char>, std::allocator<char> >"
+        },
+        {
+          "func": "std::__cxx11::basic_regex<char, std::__cxx11::regex_traits<char> >::_M_compile"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_Compiler"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_term"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_term"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_bracket_expression"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_bracket_matcher<false, false>"
+        },
+        {
+          "func": "std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_ready"
+        },
+        {
+          "func": "std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_make_cache"
+        },
+        {
+          "func": "std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_apply"
+        },
+        {
+          "func": "std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_apply"
+        }
+      ],
+      "uid": "std::__cxx11::regex_traits<char>::transform_primary<char const*>"
+    },
+    "asm_exc_page_fault#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "std::__cxx11::basic_regex<char, std::__cxx11::regex_traits<char> >::basic_regex<std::char_traits<char>, std::allocator<char> >"
+        },
+        {
+          "func": "std::__cxx11::basic_regex<char, std::__cxx11::regex_traits<char> >::_M_compile"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_Compiler"
+        },
+        {
+          "func": "std::make_shared<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::locale const&, std::regex_constants::syntax_option_type&>"
+        },
+        {
+          "func": "std::allocate_shared<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, std::locale const&, std::regex_constants::syntax_option_type&>"
+        },
+        {
+          "func": "std::shared_ptr<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >::shared_ptr<std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, std::locale const&, std::regex_constants::syntax_option_type&>"
+        },
+        {
+          "func": "std::__shared_ptr<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, "
+        },
+        {
+          "func": "std::__shared_count<"
+        },
+        {
+          "func": "std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, "
+        },
+        {
+          "func": "__gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, "
+        }
+      ],
+      "uid": "asm_exc_page_fault"
+    },
+    "native_flush_tlb_one_user#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "std::__cxx11::basic_regex<char, std::__cxx11::regex_traits<char> >::basic_regex<std::char_traits<char>, std::allocator<char> >"
+        },
+        {
+          "func": "std::__cxx11::basic_regex<char, std::__cxx11::regex_traits<char> >::_M_compile"
+        },
+        {
+          "func": "std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_Compiler"
+        },
+        {
+          "func": "std::make_shared<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::locale const&, std::regex_constants::syntax_option_type&>"
+        },
+        {
+          "func": "std::allocate_shared<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, std::locale const&, std::regex_constants::syntax_option_type&>"
+        },
+        {
+          "func": "std::shared_ptr<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >::shared_ptr<std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, std::locale const&, std::regex_constants::syntax_option_type&>"
+        },
+        {
+          "func": "std::__shared_ptr<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, "
+        },
+        {
+          "func": "std::__shared_count<"
+        },
+        {
+          "func": "std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, "
+        },
+        {
+          "func": "std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, "
+        },
+        {
+          "func": "__gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, "
+        },
+        {
+          "func": "__gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, "
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "wp_page_copy"
+        },
+        {
+          "func": "ptep_clear_flush"
+        },
+        {
+          "func": "flush_tlb_mm_range"
+        },
+        {
+          "func": "flush_tlb_func"
+        }
+      ],
+      "uid": "native_flush_tlb_one_user"
+    },
+    "check_preempt_curr#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "__libc_start_main@@GLIBC_2.34"
+        },
+        {
+          "func": "__gcov_init"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "p9_fd_request"
+        },
+        {
+          "func": "queue_work_on"
+        },
+        {
+          "func": "__queue_work"
+        },
+        {
+          "func": "try_to_wake_up"
+        },
+        {
+          "func": "ttwu_do_wakeup"
+        }
+      ],
+      "uid": "check_preempt_curr"
+    },
+    "_dl_fini#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "__run_exit_handlers"
+        }
+      ],
+      "uid": "_dl_fini"
+    },
+    "alloc_empty_file#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "_dl_map_object"
+        },
+        {
+          "func": "__GI___open64_nocancel"
+        },
+        {
+          "func": "entry_SYSCALL_64_after_hwframe"
+        },
+        {
+          "func": "do_syscall_64"
+        },
+        {
+          "func": "__x64_sys_openat"
+        },
+        {
+          "func": "do_sys_openat2"
+        },
+        {
+          "func": "do_filp_open"
+        },
+        {
+          "func": "path_openat"
+        }
+      ],
+      "uid": "alloc_empty_file"
+    },
+    "memcpy_erms#3": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "_copy_to_iter"
+        }
+      ],
+      "uid": "memcpy_erms"
+    },
+    "p9_client_rpc#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        }
+      ],
+      "uid": "p9_client_rpc"
+    },
+    "p9pdu_readf#1": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "p9_parse_header"
+        }
+      ],
+      "uid": "p9pdu_readf"
+    },
+    "prepare_to_wait_event#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        }
+      ],
+      "uid": "prepare_to_wait_event"
+    },
+    "schedule#1": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        }
+      ],
+      "uid": "schedule"
+    },
+    "__schedule#2": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "schedule"
+        }
+      ],
+      "uid": "__schedule"
+    },
+    "__raw_callee_save___pv_queued_spin_unlock#3": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "schedule"
+        },
+        {
+          "func": "__schedule"
+        },
+        {
+          "func": "finish_task_switch.isra.0"
+        }
+      ],
+      "uid": "__raw_callee_save___pv_queued_spin_unlock"
+    },
+    "kmem_cache_free.part.0#1": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "_dl_sysdep_start"
+        },
+        {
+          "func": "dl_main"
+        },
+        {
+          "func": "asm_exc_page_fault"
+        },
+        {
+          "func": "exc_page_fault"
+        },
+        {
+          "func": "do_user_addr_fault"
+        },
+        {
+          "func": "handle_mm_fault"
+        },
+        {
+          "func": "__handle_mm_fault"
+        },
+        {
+          "func": "__do_fault"
+        },
+        {
+          "func": "filemap_fault"
+        },
+        {
+          "func": "page_cache_ra_unbounded"
+        },
+        {
+          "func": "read_pages"
+        },
+        {
+          "func": "v9fs_vfs_readpages"
+        },
+        {
+          "func": "read_cache_pages"
+        },
+        {
+          "func": "v9fs_fid_readpage"
+        },
+        {
+          "func": "p9_client_read"
+        },
+        {
+          "func": "p9_client_read_once"
+        },
+        {
+          "func": "p9_req_put"
+        }
+      ],
+      "uid": "kmem_cache_free.part.0"
+    },
+    "free_pages_and_swap_cache#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "entry_SYSCALL_64_after_hwframe"
+        },
+        {
+          "func": "do_syscall_64"
+        },
+        {
+          "func": "__x64_sys_exit_group"
+        },
+        {
+          "func": "do_group_exit"
+        },
+        {
+          "func": "do_exit"
+        },
+        {
+          "func": "mmput"
+        },
+        {
+          "func": "exit_mmap"
+        },
+        {
+          "func": "tlb_finish_mmu"
+        }
+      ],
+      "uid": "free_pages_and_swap_cache"
+    },
+    "unmap_page_range#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "entry_SYSCALL_64_after_hwframe"
+        },
+        {
+          "func": "do_syscall_64"
+        },
+        {
+          "func": "__x64_sys_exit_group"
+        },
+        {
+          "func": "do_group_exit"
+        },
+        {
+          "func": "do_exit"
+        },
+        {
+          "func": "mmput"
+        },
+        {
+          "func": "exit_mmap"
+        },
+        {
+          "func": "unmap_vmas"
+        }
+      ],
+      "uid": "unmap_page_range"
+    },
+    "ttwu_do_wakeup#1": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "entry_SYSCALL_64_after_hwframe"
+        },
+        {
+          "func": "do_syscall_64"
+        },
+        {
+          "func": "__x64_sys_exit_group"
+        },
+        {
+          "func": "do_group_exit"
+        },
+        {
+          "func": "do_exit"
+        },
+        {
+          "func": "task_work_run"
+        },
+        {
+          "func": "__fput"
+        },
+        {
+          "func": "dput"
+        },
+        {
+          "func": "__dentry_kill"
+        },
+        {
+          "func": "v9fs_dentry_release"
+        },
+        {
+          "func": "p9_client_clunk"
+        },
+        {
+          "func": "p9_client_rpc"
+        },
+        {
+          "func": "p9_fd_request"
+        },
+        {
+          "func": "queue_work_on"
+        },
+        {
+          "func": "__queue_work"
+        },
+        {
+          "func": "try_to_wake_up"
+        }
+      ],
+      "uid": "ttwu_do_wakeup"
+    },
+    "gcov_do_dump#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [],
+      "uid": "gcov_do_dump"
+    },
+    "gcov_read_words#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [],
+      "uid": "gcov_read_words"
+    },
+    "gcov_write_words#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [],
+      "uid": "gcov_write_words"
+    },
+    "strcmp#0": {
+      "command": "match_regex",
+      "time": 14.30815076828003,
+      "trace": [],
+      "uid": "strcmp"
+    },
+    "__intel_pmu_enable_all.isra.0#0": {
+      "command": "perf-exec",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "entry_SYSCALL_64_after_hwframe"
+        },
+        {
+          "func": "do_syscall_64"
+        },
+        {
+          "func": "__x64_sys_execve"
+        },
+        {
+          "func": "do_execveat_common.isra.0"
+        },
+        {
+          "func": "bprm_execve"
+        },
+        {
+          "func": "load_elf_binary"
+        },
+        {
+          "func": "begin_new_exec"
+        },
+        {
+          "func": "perf_event_exec"
+        }
+      ],
+      "uid": "__intel_pmu_enable_all.isra.0"
+    },
+    "perf_event_task_tick#0": {
+      "command": "perf-exec",
+      "time": 14.30815076828003,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "entry_SYSCALL_64_after_hwframe"
+        },
+        {
+          "func": "do_syscall_64"
+        },
+        {
+          "func": "__x64_sys_execve"
+        },
+        {
+          "func": "do_execveat_common.isra.0"
+        },
+        {
+          "func": "bprm_execve"
+        },
+        {
+          "func": "load_elf_binary"
+        },
+        {
+          "func": "begin_new_exec"
+        },
+        {
+          "func": "perf_event_exec"
+        },
+        {
+          "func": "asm_sysvec_hyperv_stimer0"
+        },
+        {
+          "func": "sysvec_hyperv_stimer0"
+        },
+        {
+          "func": "__sysvec_hyperv_stimer0"
+        },
+        {
+          "func": "hrtimer_interrupt"
+        },
+        {
+          "func": "__hrtimer_run_queues"
+        },
+        {
+          "func": "tick_sched_timer"
+        },
+        {
+          "func": "update_process_times"
+        },
+        {
+          "func": "scheduler_tick"
+        }
+      ],
+      "uid": "perf_event_task_tick"
+    }
+  },
+  "models": [],
+  "origin": "dac218722ccd7450c9f38f8ce066efe01cb47755",
+  "header": {
+    "type": "time",
+    "cmd": "./match_regex",
+    "workload": "regex/email-regex-1 inputs/email-seed.txt",
+    "units": {
+      "time": "sample"
+    }
+  },
+  "machine": {
+    "architecture": "x86_64",
+    "system": "Linux",
+    "release": "5.15.146.1-microsoft-standard-WSL2",
+    "host": "dellion",
+    "cpu": {
+      "physical": 6,
+      "total": 12,
+      "frequency": "2208.00Mhz"
+    },
+    "memory": {
+      "total_ram": "7.7 GiB",
+      "swap": "2.0 GiB"
+    },
+    "boot_info": "initrd=\\initrd.img WSL_ROOT_INIT=1 panic=-1 nr_cpus=12 hv_utils.timesync_implicit=1 console=hvc0 debug pty.legacy_count=0",
+    "mem_details": {
+      "MemTotal": "8026092 kB",
+      "MemFree": "6743976 kB",
+      "MemAvailable": "6984228 kB",
+      "Buffers": "8036 kB",
+      "Cached": "422652 kB",
+      "SwapCached": "0 kB",
+      "Active": "66360 kB",
+      "Inactive": "841000 kB",
+      "Active(anon)": "2108 kB",
+      "Inactive(anon)": "478180 kB",
+      "Active(file)": "64252 kB",
+      "Inactive(file)": "362820 kB",
+      "Unevictable": "0 kB",
+      "Mlocked": "0 kB",
+      "SwapTotal": "2097152 kB",
+      "SwapFree": "2097152 kB",
+      "Dirty": "2868 kB",
+      "Writeback": "0 kB",
+      "AnonPages": "470404 kB",
+      "Mapped": "280920 kB",
+      "Shmem": "3420 kB",
+      "KReclaimable": "58160 kB",
+      "Slab": "119288 kB",
+      "SReclaimable": "58160 kB",
+      "SUnreclaim": "61128 kB",
+      "KernelStack": "5552 kB",
+      "PageTables": "7124 kB",
+      "NFS_Unstable": "0 kB",
+      "Bounce": "0 kB",
+      "WritebackTmp": "0 kB",
+      "CommitLimit": "6110196 kB",
+      "Committed_AS": "2323536 kB",
+      "VmallocTotal": "34359738367 kB",
+      "VmallocUsed": "27732 kB",
+      "VmallocChunk": "0 kB",
+      "Percpu": "8960 kB",
+      "AnonHugePages": "124928 kB",
+      "ShmemHugePages": "0 kB",
+      "ShmemPmdMapped": "0 kB",
+      "FileHugePages": "0 kB",
+      "FilePmdMapped": "0 kB",
+      "HugePages_Total": "0",
+      "HugePages_Free": "0",
+      "HugePages_Rsvd": "0",
+      "HugePages_Surp": "0",
+      "Hugepagesize": "2048 kB",
+      "Hugetlb": "0 kB",
+      "DirectMap4k": "107520 kB",
+      "DirectMap2M": "6076416 kB",
+      "DirectMap1G": "11534336 kB"
+    },
+    "cpu_details": [
+      {
+        "processor": "0",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "0",
+        "cpu cores": "6",
+        "apicid": "0",
+        "initial apicid": "0",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "1",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "0",
+        "cpu cores": "6",
+        "apicid": "1",
+        "initial apicid": "1",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "2",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "1",
+        "cpu cores": "6",
+        "apicid": "2",
+        "initial apicid": "2",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "3",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "1",
+        "cpu cores": "6",
+        "apicid": "3",
+        "initial apicid": "3",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "4",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "2",
+        "cpu cores": "6",
+        "apicid": "4",
+        "initial apicid": "4",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "5",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "2",
+        "cpu cores": "6",
+        "apicid": "5",
+        "initial apicid": "5",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "6",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "3",
+        "cpu cores": "6",
+        "apicid": "6",
+        "initial apicid": "6",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "7",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "3",
+        "cpu cores": "6",
+        "apicid": "7",
+        "initial apicid": "7",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "8",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "4",
+        "cpu cores": "6",
+        "apicid": "8",
+        "initial apicid": "8",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "9",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "4",
+        "cpu cores": "6",
+        "apicid": "9",
+        "initial apicid": "9",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "10",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "5",
+        "cpu cores": "6",
+        "apicid": "10",
+        "initial apicid": "10",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "11",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "5",
+        "cpu cores": "6",
+        "apicid": "11",
+        "initial apicid": "11",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {}
+    ]
+  },
+  "collector_info": {
+    "name": "kperf",
+    "params": {
+      "with_sudo": true,
+      "repeat": 1,
+      "warmup": 0,
+      "workload": "regex/email-regex-1 inputs/email-seed.txt"
+    }
+  },
+  "postprocessors": []
+}
