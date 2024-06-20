@@ -49,12 +49,18 @@ Prerequisite:
 
 ## Challenge 6
 
+  - **Difficulty**: medium
+  - **Goal**: Optimize the code 
+  - **Description**: The code contains bug or some inefficiency. Try to find it. You have a reference profile mesured for correct version of the code.
+
+## Challenge 7
+
   - **Difficulty**: hard
   - **Goal**: Fix the bug
   - **Description**: The directory contains a program slice taken from CPython that contains a
       programming mistake. Try to find, fix the bug and verify the bug was fixed.
 
-## Challenge 7
+## Challenge 8
 
   - **Difficulty**: hard
   - **Goal**: ??
