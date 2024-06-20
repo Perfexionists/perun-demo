@@ -28,6 +28,10 @@
 int MAX_HEIGHT = 50;
 int LEVEL_PROBABILITY = 2;
 
+void printUsage() {
+    std::cout << "usage: ./search <file> <skiplist_height> <skiplist_probability>" << std::endl;
+}
+
 int main(int argc, char** argv) {
 
     // init the skip list and list
@@ -36,8 +40,20 @@ int main(int argc, char** argv) {
     SLList_init(&list);
     bool use_skiplists = false;
 
-    if (argc == 3 && strcmp(argv[2], "--skiplist") == 0) {
-        use_skiplists = true;
+    if (argc < 2 || argc == 3 || argc > 4) {
+        printUsage();
+        return 1;
+    }
+
+    if (argc == 4) {
+        try {
+            use_skiplists = true;
+            MAX_HEIGHT = std::stoi(argv[2]);
+            LEVEL_PROBABILITY = std::stoi(argv[3]);
+        } catch (const std::invalid_argument& e) {
+            std::cerr << "Invalid parameter, must be integers" << std::endl;
+            return 1;
+        }
     }
 
     const char* filename = argv[1];
@@ -59,8 +75,6 @@ int main(int argc, char** argv) {
     std::random_device rd;
     std::mt19937 gen(rd());
     std::uniform_int_distribution<> dis(0, INT_MAX-1);
-
-    std::cout << "Starting the search" << std::endl;
 
     for (int i = 0; i < 10; i++) {
         if (use_skiplists) {
