@@ -22,7 +22,7 @@ int partition(std::vector<int> arr, int low, int high) {
 }
 
 // Recursive QuickSort function
-void quickSort(std::vector<int> arr, int low, int high) {
+void quickSort(std::vector<int>& arr, int low, int high) {
     if (low < high) {
         int pi = partition(arr, low, high);
 
