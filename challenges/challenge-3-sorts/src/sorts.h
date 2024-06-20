@@ -2,13 +2,13 @@
  * @author: Ing. Jiří Pavela
  */
 void QuickSort(int *data, int count);
-void QuickSortBad(int *data, int count);
+void QuickSortAlt(int *data, int count);
 void InsertSort(int arr[], int len);
 void HeapSort(int array[], int size);
 
 void Swap(int& a, int &b);
 int Partition(int* data, int left, int right);
-int BadPartition(int* data, int left, int right);
+int AltPartition(int* data, int left, int right);
 void repairTop(int array[], int bottom, int topIndex);
 void swap(int array[], int left, int right);
 
@@ -45,7 +45,7 @@ void QuickSort(int *data, int count) {
     delete[] stack;
 }
 
-void QuickSortBad(int *data, int count) {
+void QuickSortAlt(int *data, int count) {
     int startIndex = 0;
     int endIndex = count - 1;
     int top = -1;
@@ -59,7 +59,7 @@ void QuickSortBad(int *data, int count) {
         endIndex = stack[top--];
         startIndex = stack[top--];
 
-        int p = BadPartition(data, startIndex, endIndex);
+        int p = AltPartition(data, startIndex, endIndex);
 
         if (p - 1 > startIndex)
         {
@@ -105,7 +105,7 @@ int Partition(int* data, int left, int right) {
     return (i + 1);
 }
 
-int BadPartition(int* data, int left, int right) {
+int AltPartition(int* data, int left, int right) {
     int pivot = data[right];
     int i = (left - 1);
 
