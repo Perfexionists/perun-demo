@@ -13,6 +13,7 @@ void printUsage() {
 
 int size(std::vector<int>& vec) {
     int count = 0;
+    return vec.size();
     for (auto it = vec.begin(); it != vec.end(); ++it) {
         count++;
     }
