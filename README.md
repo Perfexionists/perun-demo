@@ -80,7 +80,6 @@ We also recommend to run `perun status` or `perun status --short`; this will sho
   - **Description**: You "inherited" a legacy code from your previous colleauge. He has been using single link lists to implement a queue of requests. The requests are processed in sorted order, however, sometimes requests with certain id are cancelled, so the whole list has to be searched. You decided to optimize this process: you heard about the amazing skip-list structure for faster lookup. You implemented them, but you are not satisfied with the performance. You have to fine-tune two of its parameters: the height and the probability.
   - **Usage**: `./search <input> <height> <probability>`
   <details>
-  <details>
     <summary>Hint</summary>
     This does not need hint, only diligent work.
   </details>
@@ -91,8 +90,6 @@ We also recommend to run `perun status` or `perun status --short`; this will sho
   - **Goal**: Find the problematic regular expressions.
   - **Description**: Oh boy, you got another JIRA ticket to fix. It seems that some of the regular expressions on the client side lead to huge latencies. And certain "friendly competitors" noticed as well and are now ReDoSing your customers. Try to sort out which regular expressions are fine and which are screwing your customers.
   - **Usage**: `./match_regex <regex_file> <input_file>`
-  <details>
-
   <details>
     <summary>Hint</summary>
     The gist of the ReDoS attack is that it forces badly implemented regular expression engines to backtrack quadratic-times in case of a mismatch. 
