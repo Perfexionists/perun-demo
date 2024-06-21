@@ -103,10 +103,10 @@ We also recommend to run `perun status` or `perun status --short`; this will sho
 
   - **Difficulty**: medium
   - **Goal**: Find and fix the bug
-  - **Description**: The code contains bug or some inefficiency. Try to find it. You have a reference profile mesured for correct version of the code.
+  - **Description**: Your boss has assigned you a project to work on. One customer wants a suggester of a palindromes based on his username or string, or whatever. You do not question your boss and so you delegate this to your fresh intern. He implemented the code, tested it on tacocat, and it worked. But the customer called `amazing_tacocat` has experienced some issues with the code. You should fix the issue and make the palindrome generator great again.
   <details>
     <summary>Hint</summary>
-    There are some bad copies behind the scenes.
+    How do parameteres in C++ work again? Is it by reference or by value?
   </details>
 
 ## Challenge 6: The Messy Traces
