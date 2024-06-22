@@ -12,3 +12,6 @@
 # perf data
 *.data
 *.data.old
+
+# Other
+palette.map
