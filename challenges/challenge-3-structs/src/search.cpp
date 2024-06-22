@@ -9,23 +9,8 @@
 #include "skiplist.h"
 #include "SLList.h"
 
-/* int MAX_HEIGHT = 5; */
-/* int LEVEL_PROBABILITY = 10; */
 
-/* int MAX_HEIGHT = 50; */
-/* int LEVEL_PROBABILITY = 2; */
-
-/* int MAX_HEIGHT = 3; */
-/* int LEVEL_PROBABILITY = 10; */
-
-/* int MAX_HEIGHT = 13; */
-/* int LEVEL_PROBABILITY = 2; */
-
-/* int MAX_HEIGHT = 3; */
-/* int LEVEL_PROBABILITY = 2; */
-
-
-int MAX_HEIGHT = 50;
+int MAX_HEIGHT = 2;
 int LEVEL_PROBABILITY = 2;
 
 void printUsage() {

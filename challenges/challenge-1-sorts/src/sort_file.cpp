@@ -10,7 +10,8 @@
 
 void printUsage() {
     std::cout << "Usage: program <file> <flags?>\n";
-    std::cout << "Flags: quicksort, insertsort, heapsort, quicksort2; run without flags to run all sorts.\n";
+    std::cout << "Flags: quicksort, insertsort, heapsort, quicksort-alt\n"; 
+    std::cout << "       run without flags to run all sorts.\n";
 }
 
 int main(int argc, char** argv) {
@@ -23,7 +24,7 @@ int main(int argc, char** argv) {
     bool quicksort = false;
     bool insertsort = false;
     bool heapsort = false;
-    bool quicksort2 = false;
+    bool quicksort_alt = false;
 
     if (argc == 2) 
         quicksort = insertsort = heapsort = quicksort2 = true;
@@ -37,8 +38,8 @@ int main(int argc, char** argv) {
             insertsort = true;
         } else if (arg == "heapsort") {
             heapsort = true;
-        } else if (arg == "quicksort2") {
-            quicksort2 = true;
+        } else if (arg == "quicksort-alt") {
+            quicksort_alt = true;
         } else {
             std::cerr << "Skipping unknown sort: " << arg << std::endl;
         }
@@ -64,7 +65,7 @@ int main(int argc, char** argv) {
     int* input = &numbers[0];
     
     if (quicksort) QuickSort(input, numbers.size());
-    if (quicksort2) QuickSortAlt(input, numbers.size());
+    if (quicksort_alt) QuickSortAlt(input, numbers.size());
     if (insertsort) InsertSort(input, numbers.size());
     if (heapsort) HeapSort(input, numbers.size());
 
