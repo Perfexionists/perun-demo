@@ -13,7 +13,7 @@
 
 The program takes as an argument source file with integers delimited by spaces. It converts them to vector and then run sorting algorithms over them.
 
-You can use following algorithms:
+You can use the following algorithms:
 
   1. InsertSort: classic algorithm that finds place in already sorted structure and inserts new element.
   2. HeapSort: efficient sort based on heap structure;
@@ -32,12 +32,12 @@ You can think how each of the algorithm should behave on these inputs.
 
 We assume, you have initialized Perun somewhere along the path with `perun init`.
 
-To measure a performance profile runn the following:
+To measure a performance profile run the following:
 
     perun collect -c "./sort_file inputs/<INPUT>" kperf --repeat 1 --warmup 0
     perun collect -c "./sort_file inputs/<INPUT> quicksort" kperf --repeat 1 --warmup 0
 
-The first command runs our perf-based collector on `./sort_file` binary with workload from `inputs` directory, it runs the measurement only once, and performs no warmups. The resulting profiles are stored in `.perun/jobs` directory. You can also run `perun status`
+The first command runs our perf-based collector on `./sort_file` binary with workload from `inputs` directory, it runs the measurement only once, and performs no warmups. The resulting profiles are stored in `.perun/jobs` directory. You can also run `perun status` to see which profiles are registered and can be used as tags.
 
 You can now compare the two profiles that you generated as follows:
 
