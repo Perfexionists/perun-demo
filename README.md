@@ -1,7 +1,7 @@
 # Demonstration of using Perun on various performance aspects
 
 This repository contains a various challenges and test projects meant for demonstration of the
-capabilities of perun tool suite.
+capabilities of Perun tool suite.
 
 You might need to install the following dependencies:
 
@@ -28,7 +28,7 @@ Alternatively, you can init Perun for all challenges.
 
 The profiles will be stored in `./challenges/.perun/jobs`.
 
-We recommned using `venv` and `Python 3.11` to avoid any issues (especially with dependencies).
+We recommend using `venv` and `Python 3.11` to avoid any issues (especially with dependencies).
 
 Challenge 1-6 should be easily installable using `make`; Challenges 7+ are harder, and might require more initializations or using a virtual machine.
 
@@ -77,7 +77,7 @@ We also recommend to run `perun status` or `perun status --short`; this will sho
 
   - **Difficulty**: easy
   - **Goal**: Optimize the parameters of skiplists
-  - **Description**: You "inherited" a legacy code from your previous colleauge. He has been using single link lists to implement a queue of requests. The requests are processed in sorted order, however, sometimes requests with certain id are cancelled, so the whole list has to be searched. You decided to optimize this process: you heard about the amazing skip-list structure for faster lookup. You implemented them, but you are not satisfied with the performance. You have to fine-tune two of its parameters: the height and the probability.
+  - **Description**: You "inherited" a legacy code from your previous colleague. He has been using single link lists to implement a queue of requests. The requests are processed in sorted order, however, sometimes requests with certain id are cancelled, so the whole list has to be searched. You decided to optimize this process: you heard about the amazing skip-list structure for faster lookup. You implemented them, but you are not satisfied with the performance. You have to fine-tune two of its parameters: the height and the probability.
   - **Usage**: `./search <input> <height> <probability>`
   <details>
     <summary>Hint</summary>
@@ -104,14 +104,14 @@ We also recommend to run `perun status` or `perun status --short`; this will sho
   - **Usage**: `./generate <string>`
   <details>
     <summary>Hint</summary>
-    How do parameteres in C++ work again? Is it by reference or by value?
+    How do parameters in C++ work again? Is it by reference or by value?
   </details>
 
 ## Challenge 6: The Messy Traces
 
   - **Difficulty**: medium
   - **Goal**: Optimize the code 
-  - **Description**: We finally leave the artificial problems and go for something real. This is a problem, that we have been facing when analysing kernel for some time. The kernel is quite evolving project, with each release, hundreds of functions are changed, hundreds are removed, and hundreds are added. When performance analysts check the code, they not only want to find the functions that might have changed (in terms of performance), but one usually needs some other trace to compare the performance against. This is needed both for automatic and manual analysis. The project contains an AI-generated code for finding good match in previous results (so called baseline) for traces from newly generated data (so called targed). The code is quite inefficient. Try to make it more efficient. There are no limits to your imagination. However, since the code is quite complex, we recommend you to look at the computing cost of two traces: there are lots of recursive calls, right?
+  - **Description**: We finally leave the artificial problems and go for something real. This is a problem, that we have been facing when analysing kernel for some time. The kernel is quite evolving project, with each release, hundreds of functions are changed, hundreds are removed, and hundreds are added. When performance analysts check the code, they not only want to find the functions that might have changed (in terms of performance), but one usually needs some other trace to compare the performance against. This is needed both for automatic and manual analysis. The project contains an AI-generated code for finding good match in previous results (so called baseline) for traces from newly generated data (so called target). The code is quite inefficient. Try to make it more efficient. There are no limits to your imagination. However, since the code is quite complex, we recommend you to look at the computing cost of two traces: there are lots of recursive calls, right?
   - **Usage**: `./compare_traces <baseline_traces> <target_traces>`
   <details>
     <summary>Hint</summary>
@@ -125,7 +125,7 @@ We also recommend to run `perun status` or `perun status --short`; this will sho
   - **Description**: This is a reproduction of the known (and now fixed bug) in CPython implementation. Our methods of automatic regression analysis could actually detect this. But you can also use a manual inspection and our interpretation to inspect it as well. Try to find out what is the problem of this bug. We can give you a hint (since CPython is really huge) that the problem is in `ctypes`.
   <details>
     <summary>Hint</summary>
-    It takes a single line to fix a forgotten initialization.
+    It takes a single line to fix unnecessarily repeated initialization.
   </details>
 
 ## Challenge 8
@@ -134,8 +134,8 @@ We also recommend to run `perun status` or `perun status --short`; this will sho
   - **Goal**: Just have fun, try to find, what is the problem with the performance.
   - **Description**: This challenge is an open challenge: we know there are some issues with the Maple Trees structure, which were tailored specifically for kernel. You have to install, two kernels: one that has maple trees and one that does not (we suggest to try the same version with backport of Maple Trees). Then compare the results. Since this is quite a hard challenge, we also provide lots of precollected profiles as well as generated differences. You can check these out, if you have problem running the challenge. The kernel versions were, however, censored.
   - **Alternative challenges**:
-    1. Try to turn mitigations on or off and observe the results (to turn the mitigations off, you have to run the following: `grubby --update-kernel ALL --args mitigations=off` and then reboot the kernel `rhts-reboot`) 
-    2. Try to turn on or off your selinux (don't forget to turn it on afterwards!). To turn the selinux on/off run the following: `grubby --update-kernel ALL --args selinux=0` and reboot your kernel with `rhts-reboot`; to turn the selinux back on, run the following: `grubby --update-kernel ALL --remove-args selinux`.
+    1. Try to turn mitigations on or off and observe the results (to turn the mitigations off, you have to run the following: `grubby --update-kernel ALL --args mitigations=off` and then reboot the kernel `reboot`) 
+    2. Try to turn on or off your selinux (don't forget to turn it on afterwards!). To turn the selinux on/off run the following: `grubby --update-kernel ALL --args selinux=0` and reboot your kernel with `reboot`; to turn the selinux back on, run the following: `grubby --update-kernel ALL --remove-args selinux`.
   <details>
     <summary>Hint</summary>
     No hint, enjoy your dive into kernel madness! We have no idea what is wrong.
