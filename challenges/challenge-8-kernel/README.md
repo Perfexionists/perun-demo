@@ -13,7 +13,20 @@
 
 Each of the following challenges expects that you already have activated a virtual environment with installed Perun, and that you either initialized Perun (`perun init`) in the challenge directory or in some of its parent directory.
 
-For the SELinux and Mitigations challenges, you will also need to download a benchmark to use as a workload for Perun kperf collector. As the benchmark is not available to the general public, you will need to download it from a RH server at http://reports.perfqe.tpb.lab.eng.brq.redhat.com/testing/sched/perun/perun-demo.
+Unless you are using the demo VM for the SELinux and Mitigations challenges, you will also need to build the `stress-ng` benchmark to use as a workload for the Perun kperf collector. As the benchmark is not available to the general public, you will need to clone and install it from a RH Git Lab server. If you are using the demo VM, you will find the `stress-ng` benchmark in the `challenge-8-kernel` directory.
+
+To build the `stress-ng` benchmark, run the following commands:
+
+    git clone https://gitlab.cee.redhat.com/kernel-performance/sched/scheduler-benchmarks.git
+    cd scheduler-benchmarks/Stress_ng-test
+    ./manual_test.sh mmap
+
+This will clone and build the `stress-ng` binary. Please note that the benchmark requires numerous system dependencies that will be installed during the build. After the build completes, copy the `stress-ng` binary to the `challenge-8-kernel`.
+
+You can check that the benchmark is compiled properly by running:
+
+    ./stress-ng --mmap 1 --verbose --oomable --metrics-brief -t 23
+
 
 ## Maple Trees
 
@@ -39,7 +52,7 @@ To turn the selinux off run the following: `grubby --update-kernel ALL --args se
 
 Measure the benchmark on both kernel configurations, e.g.:
 
-    perun collect -c "<benchmark>" kperf --with-sudo --repeat 3 --warmup 1
+    perun collect -c "stress-ng" -w "--mmap 1 --verbose --oomable --metrics-brief -t 23" kperf --with-sudo --repeat 3 --warmup 1
 
 After you have a collected profile for both configurations, generate a diff file
 
@@ -57,7 +70,7 @@ To turn the mitigations off, you have to run the following: `grubby --update-ker
 
 Measure the benchmark on a kernel with both mitigations on and off, e.g.:
 
-    perun collect -c "<benchmark>" kperf --with-sudo --repeat 3 --warmup 1
+    perun collect -c "stress-ng" -w "--mmap 1 --verbose --oomable --metrics-brief -t 23" kperf --with-sudo --repeat 3 --warmup 1
 
 After you have a collected profile for both configurations, generate a diff file
 
