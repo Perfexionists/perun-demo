@@ -1,111 +1,68 @@
 {
   "resources": {
-    "[libstdc++.so.6.0.30]#0": {
+    "_dl_fixup#0": {
       "amount": [
-        12664921
+        56653
+      ]
+    },
+    "__GI___libc_open#0": {
+      "amount": [
+        62
       ]
     },
     "std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::_M_extract_int<long>#0": {
       "amount": [
-        34591833
-      ]
-    },
-    "std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append#0": {
-      "amount": [
-        338049
-      ]
-    },
-    "skiplistDestroy#0": {
-      "amount": [
-        12620004
+        23207955
       ]
     },
     "skiplistInsert#0": {
       "amount": [
-        12211440692
-      ]
-    },
-    "__random#0": {
-      "amount": [
-        25088532
-      ]
-    },
-    "chooseHeight#0": {
-      "amount": [
-        11971665
-      ]
-    },
-    "skiplistCreateNode#0": {
-      "amount": [
-        12424137
-      ]
-    },
-    "std::istream::sentry::sentry#0": {
-      "amount": [
-        427747
-      ]
-    },
-    "std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::_M_extract_int<long>#1": {
-      "amount": [
-        12640871
-      ]
-    },
-    "std::istream::operator>>#0": {
-      "amount": [
-        12529994
-      ]
-    },
-    "__memmove_avx_unaligned_erms#0": {
-      "amount": [
-        1456999
-      ]
-    },
-    "__sbrk#0": {
-      "amount": [
-        218448
-      ]
-    },
-    "_int_malloc#0": {
-      "amount": [
-        24870994
+        158548412
       ]
     },
     "_start#0": {
       "amount": [
-        3418
+        2
       ]
     },
-    "do_lookup_x#0": {
+    "operator new#0": {
       "amount": [
-        299345
+        6786606
       ]
     },
-    "malloc#0": {
+    "read#0": {
       "amount": [
-        2067992
+        7019
       ]
     }
   },
   "resource_type_map": {
-    "[libstdc++.so.6.0.30]#0": {
+    "_dl_fixup#0": {
       "command": "search",
-      "time": 4.649145841598511,
+      "time": 0.6280229091644287,
       "trace": [
         {
           "func": "[unknown]"
         },
         {
-          "func": "std::__numpunct_cache<char>::~__numpunct_cache"
-        },
+          "func": "[unknown]"
+        }
+      ],
+      "uid": "_dl_fixup"
+    },
+    "__GI___libc_open#0": {
+      "command": "search",
+      "time": 0.6280229091644287,
+      "trace": [
         {
           "func": "[unknown]"
         }
       ],
-      "uid": "[libstdc++.so.6.0.30]"
+      "uid": "__GI___libc_open"
     },
     "std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::_M_extract_int<long>#0": {
       "command": "search",
-      "time": 4.649145841598511,
+      "time": 0.6280229091644287,
       "trace": [
         {
           "func": "[unknown]"
@@ -119,38 +76,9 @@
       ],
       "uid": "std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::_M_extract_int<long>"
     },
-    "std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append#0": {
-      "command": "search",
-      "time": 4.649145841598511,
-      "trace": [
-        {
-          "func": "[unknown]"
-        },
-        {
-          "func": "std::basic_filebuf<char, std::char_traits<char> >::~basic_filebuf"
-        },
-        {
-          "func": "[unknown]"
-        }
-      ],
-      "uid": "std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append"
-    },
-    "skiplistDestroy#0": {
-      "command": "search",
-      "time": 4.649145841598511,
-      "trace": [
-        {
-          "func": "__libc_start_call_main"
-        },
-        {
-          "func": "main"
-        }
-      ],
-      "uid": "skiplistDestroy"
-    },
     "skiplistInsert#0": {
       "command": "search",
-      "time": 4.649145841598511,
+      "time": 0.6280229091644287,
       "trace": [
         {
           "func": "__libc_start_call_main"
@@ -161,133 +89,31 @@
       ],
       "uid": "skiplistInsert"
     },
-    "__random#0": {
-      "command": "search",
-      "time": 4.649145841598511,
-      "trace": [
-        {
-          "func": "__libc_start_call_main"
-        },
-        {
-          "func": "main"
-        },
-        {
-          "func": "skiplistInsert"
-        }
-      ],
-      "uid": "__random"
-    },
-    "chooseHeight#0": {
-      "command": "search",
-      "time": 4.649145841598511,
-      "trace": [
-        {
-          "func": "__libc_start_call_main"
-        },
-        {
-          "func": "main"
-        },
-        {
-          "func": "skiplistInsert"
-        }
-      ],
-      "uid": "chooseHeight"
-    },
-    "skiplistCreateNode#0": {
-      "command": "search",
-      "time": 4.649145841598511,
-      "trace": [
-        {
-          "func": "__libc_start_call_main"
-        },
-        {
-          "func": "main"
-        },
-        {
-          "func": "skiplistInsert"
-        }
-      ],
-      "uid": "skiplistCreateNode"
-    },
-    "std::istream::sentry::sentry#0": {
-      "command": "search",
-      "time": 4.649145841598511,
-      "trace": [
-        {
-          "func": "__libc_start_call_main"
-        },
-        {
-          "func": "main"
-        }
-      ],
-      "uid": "std::istream::sentry::sentry"
-    },
-    "std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::_M_extract_int<long>#1": {
-      "command": "search",
-      "time": 4.649145841598511,
-      "trace": [
-        {
-          "func": "__libc_start_call_main"
-        },
-        {
-          "func": "main"
-        }
-      ],
-      "uid": "std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::_M_extract_int<long>"
-    },
-    "std::istream::operator>>#0": {
-      "command": "search",
-      "time": 4.649145841598511,
-      "trace": [
-        {
-          "func": "__libc_start_call_main"
-        }
-      ],
-      "uid": "std::istream::operator>>"
-    },
-    "__memmove_avx_unaligned_erms#0": {
-      "command": "search",
-      "time": 4.649145841598511,
-      "trace": [],
-      "uid": "__memmove_avx_unaligned_erms"
-    },
-    "__sbrk#0": {
-      "command": "search",
-      "time": 4.649145841598511,
-      "trace": [],
-      "uid": "__sbrk"
-    },
-    "_int_malloc#0": {
-      "command": "search",
-      "time": 4.649145841598511,
-      "trace": [],
-      "uid": "_int_malloc"
-    },
     "_start#0": {
       "command": "search",
-      "time": 4.649145841598511,
+      "time": 0.6280229091644287,
       "trace": [],
       "uid": "_start"
     },
-    "do_lookup_x#0": {
+    "operator new#0": {
       "command": "search",
-      "time": 4.649145841598511,
+      "time": 0.6280229091644287,
       "trace": [],
-      "uid": "do_lookup_x"
+      "uid": "operator new"
     },
-    "malloc#0": {
+    "read#0": {
       "command": "search",
-      "time": 4.649145841598511,
+      "time": 0.6280229091644287,
       "trace": [],
-      "uid": "malloc"
+      "uid": "read"
     }
   },
   "models": [],
-  "origin": "3498354ca7c807da9be4d7a16ff9c0893d0ddcb9",
+  "origin": "afddac63963b14c2f0b9606204b17d0b9f741562",
   "header": {
     "type": "time",
-    "cmd": "./search inputs/medium-random.txt",
-    "workload": "2 10",
+    "cmd": "./search inputs/medium-random.txt 5 10",
+    "workload": "",
     "units": {
       "time": "sample"
     }
@@ -308,43 +134,43 @@
     },
     "boot_info": "initrd=\\initrd.img WSL_ROOT_INIT=1 panic=-1 nr_cpus=12 hv_utils.timesync_implicit=1 console=hvc0 debug pty.legacy_count=0",
     "mem_details": {
-      "MemTotal": "8026092 kB",
-      "MemFree": "6718476 kB",
-      "MemAvailable": "6973380 kB",
-      "Buffers": "21420 kB",
-      "Cached": "423040 kB",
+      "MemTotal": "8026096 kB",
+      "MemFree": "6203612 kB",
+      "MemAvailable": "6607700 kB",
+      "Buffers": "6540 kB",
+      "Cached": "664444 kB",
       "SwapCached": "0 kB",
-      "Active": "81500 kB",
-      "Inactive": "852948 kB",
-      "Active(anon)": "2180 kB",
-      "Inactive(anon)": "491240 kB",
-      "Active(file)": "79320 kB",
-      "Inactive(file)": "361708 kB",
+      "Active": "162352 kB",
+      "Inactive": "1245124 kB",
+      "Active(anon)": "2560 kB",
+      "Inactive(anon)": "829156 kB",
+      "Active(file)": "159792 kB",
+      "Inactive(file)": "415968 kB",
       "Unevictable": "0 kB",
       "Mlocked": "0 kB",
       "SwapTotal": "2097152 kB",
       "SwapFree": "2097152 kB",
-      "Dirty": "1896 kB",
+      "Dirty": "380 kB",
       "Writeback": "0 kB",
-      "AnonPages": "482148 kB",
-      "Mapped": "280760 kB",
-      "Shmem": "3424 kB",
-      "KReclaimable": "59548 kB",
-      "Slab": "121468 kB",
-      "SReclaimable": "59548 kB",
-      "SUnreclaim": "61920 kB",
-      "KernelStack": "5680 kB",
-      "PageTables": "7496 kB",
+      "AnonPages": "724740 kB",
+      "Mapped": "483872 kB",
+      "Shmem": "95140 kB",
+      "KReclaimable": "88084 kB",
+      "Slab": "156128 kB",
+      "SReclaimable": "88084 kB",
+      "SUnreclaim": "68044 kB",
+      "KernelStack": "7024 kB",
+      "PageTables": "11908 kB",
       "NFS_Unstable": "0 kB",
       "Bounce": "0 kB",
       "WritebackTmp": "0 kB",
-      "CommitLimit": "6110196 kB",
-      "Committed_AS": "2342560 kB",
+      "CommitLimit": "6110200 kB",
+      "Committed_AS": "2996688 kB",
       "VmallocTotal": "34359738367 kB",
-      "VmallocUsed": "27876 kB",
+      "VmallocUsed": "29236 kB",
       "VmallocChunk": "0 kB",
       "Percpu": "8960 kB",
-      "AnonHugePages": "129024 kB",
+      "AnonHugePages": "274432 kB",
       "ShmemHugePages": "0 kB",
       "ShmemPmdMapped": "0 kB",
       "FileHugePages": "0 kB",
@@ -355,8 +181,8 @@
       "HugePages_Surp": "0",
       "Hugepagesize": "2048 kB",
       "Hugetlb": "0 kB",
-      "DirectMap4k": "107520 kB",
-      "DirectMap2M": "6076416 kB",
+      "DirectMap4k": "128000 kB",
+      "DirectMap2M": "6055936 kB",
       "DirectMap1G": "11534336 kB"
     },
     "cpu_details": [
@@ -702,10 +528,10 @@
   "collector_info": {
     "name": "kperf",
     "params": {
+      "with_sudo": false,
       "warmup": 0,
       "repeat": 1,
-      "with_sudo": false,
-      "workload": "2 10"
+      "workload": ""
     }
   },
   "postprocessors": []
