@@ -9,6 +9,7 @@ You might need to install the following dependencies:
   - perf
   - g++
   - python-devel
+  - glibc-static
 
 
 We recommend using `venv` and `Python 3.11` to avoid any issues (especially with dependencies):
