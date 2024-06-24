@@ -61,6 +61,10 @@ Try to sort these parameters in terms of effectiveness regarding the speed.
 
 ## How to run
 
+The program is compilable using make:
+
+    make
+
 We assume, you have initialized Perun somewhere along the path with `perun init` as well as some git (we recommend to create an empty git for these experiments).
 
 To measure a performance profile run the following:

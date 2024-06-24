@@ -22,10 +22,6 @@ a hash table. The hash table can be modified by chosing a different underlying
 hash function: a hash function is used in the hash table to compute the bucket,
 where item will be stored.
 
-The program is compilable using make:
-
-    make
-
 Note that this challenge is based on an actual issue found in certain (censored)
 project.
 
@@ -43,6 +39,10 @@ We also prepared directory `inputs` with several files that you can try:
 You can think how the wordcount program should behave on these inputs.
 
 ## How to run
+
+The program is compilable using make:
+
+    make
 
 We assume, you have initialized Perun somewhere along the path with `perun init` as well as some git (we recommend to create an empty git for these experiments).
 

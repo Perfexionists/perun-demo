@@ -29,6 +29,10 @@ We also prepared directory `inputs` with inputs that you can try:
 
 ## How to run
 
+The program is compilable using make:
+
+    make
+
 We assume, you have initialized Perun somewhere along the path with `perun init` as well as some git (we recommend to create an empty git for these experiments).
 
 To measure a performance profile run the following:

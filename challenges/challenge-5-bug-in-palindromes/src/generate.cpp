@@ -44,7 +44,10 @@ std::vector<char> breakStringIntoChars(const std::string& str) {
 
 
 int main(int argc, char** argv) {
-    // perform all sorts on scaling data
+    if (argc != 2) {
+        std::cout << "usage: " << argv[0] << " <string>" << std::endl;
+        return 1;
+    }    
     std::string word = argv[1];
 
     std::vector<char> chars = breakStringIntoChars(word);

@@ -1,150 +1,123 @@
 {
   "resources": {
-    "_dl_lookup_symbol_x#0": {
+    "dl_main#0": {
       "amount": [
-        8036424
+        97
       ]
     },
-    "[libstdc++.so.6.0.30]#0": {
+    "generatePermutations#0": {
       "amount": [
-        10078731
+        8693556
       ]
     },
-    "std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::_M_extract_int<long>#0": {
+    "generatePermutations#1": {
       "amount": [
-        9771387
+        28171632
       ]
     },
-    "std::istream::sentry::sentry#0": {
+    "generatePermutations#2": {
       "amount": [
-        9771387
+        4942808
       ]
     },
-    "partition#0": {
+    "generatePermutations#3": {
       "amount": [
-        10288463
+        34145863
       ]
     },
-    "std::vector<int, std::allocator<int> >::operator[]#0": {
+    "generatePermutations#4": {
       "amount": [
-        10499319
+        99308836
       ]
     },
-    "std::swap<int>#0": {
+    "isPalindrome#0": {
       "amount": [
-        11504808
+        139172678
       ]
     },
-    "std::swap<int>#1": {
+    "std::vector<char, std::allocator<char> >::operator[]#0": {
       "amount": [
-        11605656
+        8662821
       ]
     },
-    "std::move<int&>#0": {
+    "std::vector<char, std::allocator<char> >::size#0": {
       "amount": [
-        11363844
+        12692577
       ]
     },
-    "quickSort#0": {
+    "isPalindrome#1": {
       "amount": [
-        11505946
+        34104228
       ]
     },
-    "std::vector<int, std::allocator<int> >::operator[]#1": {
+    "std::move<char&>#0": {
       "amount": [
-        10729742
+        34504478
       ]
     },
-    "std::vector<int, std::allocator<int> >::operator[]#2": {
+    "std::swap<char>#0": {
       "amount": [
-        11671668
+        126170651
       ]
     },
-    "std::vector<int, std::allocator<int> >::operator[]#3": {
+    "std::move<char&>#1": {
       "amount": [
-        11750623
+        36789383
       ]
     },
-    "std::vector<int, std::allocator<int> >::operator[]#4": {
+    "std::vector<char, std::allocator<char> >::operator[]#1": {
       "amount": [
-        11137177
+        51151979
       ]
     },
-    "_dl_start#0": {
+    "std::move<char&>#2": {
       "amount": [
-        1111362
+        4949075
+      ]
+    },
+    "std::vector<char, std::allocator<char> >::operator[]#2": {
+      "amount": [
+        37435705
+      ]
+    },
+    "std::move<char&>#3": {
+      "amount": [
+        17541
+      ]
+    },
+    "std::swap<char>#1": {
+      "amount": [
+        21186868
+      ]
+    },
+    "std::move<char&>#4": {
+      "amount": [
+        31404150
       ]
     },
     "_start#0": {
       "amount": [
-        778
-      ]
-    },
-    "[unknown]#0": {
-      "amount": [
-        25357
+        2
       ]
     }
   },
   "resource_type_map": {
-    "_dl_lookup_symbol_x#0": {
-      "command": "sort",
-      "time": 0.46573472023010254,
+    "dl_main#0": {
+      "command": "generate",
+      "time": 0.5027596950531006,
       "trace": [
         {
           "func": "[unknown]"
         },
         {
-          "func": "[unknown]"
+          "func": "_dl_sysdep_start"
         }
       ],
-      "uid": "_dl_lookup_symbol_x"
+      "uid": "dl_main"
     },
-    "[libstdc++.so.6.0.30]#0": {
-      "command": "sort",
-      "time": 0.46573472023010254,
-      "trace": [
-        {
-          "func": "[unknown]"
-        },
-        {
-          "func": "std::__numpunct_cache<char>::~__numpunct_cache"
-        },
-        {
-          "func": "[unknown]"
-        }
-      ],
-      "uid": "[libstdc++.so.6.0.30]"
-    },
-    "std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::_M_extract_int<long>#0": {
-      "command": "sort",
-      "time": 0.46573472023010254,
-      "trace": [
-        {
-          "func": "[unknown]"
-        },
-        {
-          "func": "std::__numpunct_cache<char>::~__numpunct_cache"
-        },
-        {
-          "func": "[unknown]"
-        }
-      ],
-      "uid": "std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::_M_extract_int<long>"
-    },
-    "std::istream::sentry::sentry#0": {
-      "command": "sort",
-      "time": 0.46573472023010254,
-      "trace": [
-        {
-          "func": "[unknown]"
-        }
-      ],
-      "uid": "std::istream::sentry::sentry"
-    },
-    "partition#0": {
-      "command": "sort",
-      "time": 0.46573472023010254,
+    "generatePermutations#0": {
+      "command": "generate",
+      "time": 0.5027596950531006,
       "trace": [
         {
           "func": "__libc_start_call_main"
@@ -153,14 +126,26 @@
           "func": "main"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
         }
       ],
-      "uid": "partition"
+      "uid": "generatePermutations"
     },
-    "std::vector<int, std::allocator<int> >::operator[]#0": {
-      "command": "sort",
-      "time": 0.46573472023010254,
+    "generatePermutations#1": {
+      "command": "generate",
+      "time": 0.5027596950531006,
       "trace": [
         {
           "func": "__libc_start_call_main"
@@ -169,26 +154,29 @@
           "func": "main"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "partition"
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
         }
       ],
-      "uid": "std::vector<int, std::allocator<int> >::operator[]"
+      "uid": "generatePermutations"
     },
-    "std::swap<int>#0": {
-      "command": "sort",
-      "time": 0.46573472023010254,
+    "generatePermutations#2": {
+      "command": "generate",
+      "time": 0.5027596950531006,
       "trace": [
         {
           "func": "__libc_start_call_main"
@@ -197,32 +185,32 @@
           "func": "main"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "partition"
+          "func": "generatePermutations"
         }
       ],
-      "uid": "std::swap<int>"
+      "uid": "generatePermutations"
     },
-    "std::swap<int>#1": {
-      "command": "sort",
-      "time": 0.46573472023010254,
+    "generatePermutations#3": {
+      "command": "generate",
+      "time": 0.5027596950531006,
       "trace": [
         {
           "func": "__libc_start_call_main"
@@ -231,35 +219,35 @@
           "func": "main"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "partition"
+          "func": "generatePermutations"
         }
       ],
-      "uid": "std::swap<int>"
+      "uid": "generatePermutations"
     },
-    "std::move<int&>#0": {
-      "command": "sort",
-      "time": 0.46573472023010254,
+    "generatePermutations#4": {
+      "command": "generate",
+      "time": 0.5027596950531006,
       "trace": [
         {
           "func": "__libc_start_call_main"
@@ -268,47 +256,38 @@
           "func": "main"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
-        },
-        {
-          "func": "quickSort"
-        },
-        {
-          "func": "quickSort"
-        },
-        {
-          "func": "partition"
+          "func": "generatePermutations"
         }
       ],
-      "uid": "std::move<int&>"
+      "uid": "generatePermutations"
     },
-    "quickSort#0": {
-      "command": "sort",
-      "time": 0.46573472023010254,
+    "isPalindrome#0": {
+      "command": "generate",
+      "time": 0.5027596950531006,
       "trace": [
         {
           "func": "__libc_start_call_main"
@@ -317,50 +296,41 @@
           "func": "main"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
-        },
-        {
-          "func": "quickSort"
-        },
-        {
-          "func": "quickSort"
-        },
-        {
-          "func": "quickSort"
+          "func": "generatePermutations"
         }
       ],
-      "uid": "quickSort"
+      "uid": "isPalindrome"
     },
-    "std::vector<int, std::allocator<int> >::operator[]#1": {
-      "command": "sort",
-      "time": 0.46573472023010254,
+    "std::vector<char, std::allocator<char> >::operator[]#0": {
+      "command": "generate",
+      "time": 0.5027596950531006,
       "trace": [
         {
           "func": "__libc_start_call_main"
@@ -369,56 +339,44 @@
           "func": "main"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
-        },
-        {
-          "func": "quickSort"
-        },
-        {
-          "func": "quickSort"
-        },
-        {
-          "func": "quickSort"
-        },
-        {
-          "func": "partition"
+          "func": "isPalindrome"
         }
       ],
-      "uid": "std::vector<int, std::allocator<int> >::operator[]"
+      "uid": "std::vector<char, std::allocator<char> >::operator[]"
     },
-    "std::vector<int, std::allocator<int> >::operator[]#2": {
-      "command": "sort",
-      "time": 0.46573472023010254,
+    "std::vector<char, std::allocator<char> >::size#0": {
+      "command": "generate",
+      "time": 0.5027596950531006,
       "trace": [
         {
           "func": "__libc_start_call_main"
@@ -427,59 +385,44 @@
           "func": "main"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
-        },
-        {
-          "func": "quickSort"
-        },
-        {
-          "func": "quickSort"
-        },
-        {
-          "func": "quickSort"
-        },
-        {
-          "func": "quickSort"
-        },
-        {
-          "func": "partition"
+          "func": "isPalindrome"
         }
       ],
-      "uid": "std::vector<int, std::allocator<int> >::operator[]"
+      "uid": "std::vector<char, std::allocator<char> >::size"
     },
-    "std::vector<int, std::allocator<int> >::operator[]#3": {
-      "command": "sort",
-      "time": 0.46573472023010254,
+    "isPalindrome#1": {
+      "command": "generate",
+      "time": 0.5027596950531006,
       "trace": [
         {
           "func": "__libc_start_call_main"
@@ -488,56 +431,38 @@
           "func": "main"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
-        },
-        {
-          "func": "quickSort"
-        },
-        {
-          "func": "quickSort"
-        },
-        {
-          "func": "quickSort"
-        },
-        {
-          "func": "quickSort"
-        },
-        {
-          "func": "quickSort"
-        },
-        {
-          "func": "quickSort"
+          "func": "generatePermutations"
         }
       ],
-      "uid": "std::vector<int, std::allocator<int> >::operator[]"
+      "uid": "isPalindrome"
     },
-    "std::vector<int, std::allocator<int> >::operator[]#4": {
-      "command": "sort",
-      "time": 0.46573472023010254,
+    "std::move<char&>#0": {
+      "command": "generate",
+      "time": 0.5027596950531006,
       "trace": [
         {
           "func": "__libc_start_call_main"
@@ -546,47 +471,353 @@
           "func": "main"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
         },
         {
-          "func": "quickSort"
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
         }
       ],
-      "uid": "std::vector<int, std::allocator<int> >::operator[]"
+      "uid": "std::move<char&>"
     },
-    "_dl_start#0": {
-      "command": "sort",
-      "time": 0.46573472023010254,
+    "std::swap<char>#0": {
+      "command": "generate",
+      "time": 0.5027596950531006,
       "trace": [
         {
-          "func": "_dl_start_user"
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
         }
       ],
-      "uid": "_dl_start"
+      "uid": "std::swap<char>"
+    },
+    "std::move<char&>#1": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "std::swap<char>"
+        }
+      ],
+      "uid": "std::move<char&>"
+    },
+    "std::vector<char, std::allocator<char> >::operator[]#1": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        }
+      ],
+      "uid": "std::vector<char, std::allocator<char> >::operator[]"
+    },
+    "std::move<char&>#2": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "std::swap<char>"
+        }
+      ],
+      "uid": "std::move<char&>"
+    },
+    "std::vector<char, std::allocator<char> >::operator[]#2": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        }
+      ],
+      "uid": "std::vector<char, std::allocator<char> >::operator[]"
+    },
+    "std::move<char&>#3": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        }
+      ],
+      "uid": "std::move<char&>"
+    },
+    "std::swap<char>#1": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        }
+      ],
+      "uid": "std::swap<char>"
+    },
+    "std::move<char&>#4": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "std::swap<char>"
+        }
+      ],
+      "uid": "std::move<char&>"
     },
     "_start#0": {
-      "command": "sort",
-      "time": 0.46573472023010254,
+      "command": "generate",
+      "time": 0.5027596950531006,
       "trace": [],
       "uid": "_start"
-    },
-    "[unknown]#0": {
-      "command": "sort",
-      "time": 0.46573472023010254,
-      "trace": [
-        {
-          "func": "_start"
-        }
-      ],
-      "uid": "[unknown]"
     }
   },
   "models": [],
-  "origin": "42b0b5984f68ea16053c7a2e7278df8bd9c90a06",
+  "origin": "13ff56d898cefd713d162964ff4a9ca09fbc4b56",
   "header": {
     "type": "time",
-    "cmd": "./sort",
-    "workload": "inputs/medium-random.txt",
+    "cmd": "./generate",
+    "workload": "burritodog",
     "units": {
       "time": "sample"
     }
@@ -607,43 +838,43 @@
     },
     "boot_info": "initrd=\\initrd.img WSL_ROOT_INIT=1 panic=-1 nr_cpus=12 hv_utils.timesync_implicit=1 console=hvc0 debug pty.legacy_count=0",
     "mem_details": {
-      "MemTotal": "8026092 kB",
-      "MemFree": "6642680 kB",
-      "MemAvailable": "6979228 kB",
-      "Buffers": "10792 kB",
-      "Cached": "514848 kB",
+      "MemTotal": "8026096 kB",
+      "MemFree": "6193972 kB",
+      "MemAvailable": "6592844 kB",
+      "Buffers": "5760 kB",
+      "Cached": "657668 kB",
       "SwapCached": "0 kB",
-      "Active": "179236 kB",
-      "Inactive": "833420 kB",
-      "Active(anon)": "2204 kB",
-      "Inactive(anon)": "488044 kB",
-      "Active(file)": "177032 kB",
-      "Inactive(file)": "345376 kB",
+      "Active": "210576 kB",
+      "Inactive": "1193788 kB",
+      "Active(anon)": "2652 kB",
+      "Inactive(anon)": "833424 kB",
+      "Active(file)": "207924 kB",
+      "Inactive(file)": "360364 kB",
       "Unevictable": "0 kB",
       "Mlocked": "0 kB",
       "SwapTotal": "2097152 kB",
       "SwapFree": "2097152 kB",
-      "Dirty": "100 kB",
+      "Dirty": "452 kB",
       "Writeback": "0 kB",
-      "AnonPages": "481280 kB",
-      "Mapped": "281332 kB",
-      "Shmem": "3428 kB",
-      "KReclaimable": "60080 kB",
-      "Slab": "122404 kB",
-      "SReclaimable": "60080 kB",
-      "SUnreclaim": "62324 kB",
-      "KernelStack": "5680 kB",
-      "PageTables": "7660 kB",
+      "AnonPages": "732292 kB",
+      "Mapped": "483896 kB",
+      "Shmem": "95140 kB",
+      "KReclaimable": "92600 kB",
+      "Slab": "161744 kB",
+      "SReclaimable": "92600 kB",
+      "SUnreclaim": "69144 kB",
+      "KernelStack": "7204 kB",
+      "PageTables": "12144 kB",
       "NFS_Unstable": "0 kB",
       "Bounce": "0 kB",
       "WritebackTmp": "0 kB",
-      "CommitLimit": "6110196 kB",
-      "Committed_AS": "2344544 kB",
+      "CommitLimit": "6110200 kB",
+      "Committed_AS": "3004120 kB",
       "VmallocTotal": "34359738367 kB",
-      "VmallocUsed": "27876 kB",
+      "VmallocUsed": "29492 kB",
       "VmallocChunk": "0 kB",
       "Percpu": "8960 kB",
-      "AnonHugePages": "126976 kB",
+      "AnonHugePages": "286720 kB",
       "ShmemHugePages": "0 kB",
       "ShmemPmdMapped": "0 kB",
       "FileHugePages": "0 kB",
@@ -654,8 +885,8 @@
       "HugePages_Surp": "0",
       "Hugepagesize": "2048 kB",
       "Hugetlb": "0 kB",
-      "DirectMap4k": "107520 kB",
-      "DirectMap2M": "6076416 kB",
+      "DirectMap4k": "128000 kB",
+      "DirectMap2M": "6055936 kB",
       "DirectMap1G": "11534336 kB"
     },
     "cpu_details": [
@@ -1001,10 +1232,10 @@
   "collector_info": {
     "name": "kperf",
     "params": {
+      "with_sudo": false,
       "warmup": 0,
       "repeat": 1,
-      "with_sudo": false,
-      "workload": "inputs/medium-random.txt"
+      "workload": "burritodog"
     }
   },
   "postprocessors": []

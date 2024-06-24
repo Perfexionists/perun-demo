@@ -22,10 +22,6 @@
 
 The program takes as an argument source file with integers delimited by spaces. It converts them to vector and then runs sorting algorithms on the vector.
 
-The program is compilable using make:
-
-    make
-
 You can select the following algorithms:
 
   1. InsertSort: classic algorithm that for each element finds its place in the already sorted structure and inserts it there.
@@ -44,6 +40,10 @@ whether they could impact the performance.
 
 ## How to run
 
+The program is compilable using make:
+
+    make
+
 We assume, you have initialized Perun somewhere along the path with `perun init` as well as some git (we recommend to create an empty git for these experiments).
 
 To measure a performance profile run the following:
@@ -55,9 +55,9 @@ The first command runs our perf-based collector on `./sort_file` binary with
 workload from `inputs` directory, it runs the measurement only once, and
 performs no warmups. The resulting profiles are stored in `.perun/jobs`
 directory. You can also run `perun status` to see which profiles are registered
-and can be used as tags. Alternatively, you can add `-o` parameter (`perun
-collect -o out.perf ... kperf`) to save the profile outside of Perun scope (you
-will have to specify the profiles manually then).
+and can be used as tags (in form of `i@p`). Alternatively, you can add `-o`
+parameter (`perun collect -o out.perf ... kperf`) to save the profile outside of
+Perun scope (you will have to specify the profiles manually then).
 
 You can now compare the two profiles that you generated as follows:
 
