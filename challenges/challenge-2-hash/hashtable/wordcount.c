@@ -36,21 +36,28 @@ void print_tab(char * key, unsigned data)
 */
 int main (int argc, char ** argv)
 {
+	if (argc != 3) {
+		printf("usage: ./wordcount [student|java|djb] <INPUT>\n");
+		exit(1);
+	}
+
 	unsigned int (*hfunc) (const char*);
 	if (strcmp(argv[1], "djb") == 0) {
+		printf("Selected: djb hash function\n");
 		hfunc = djb_hash_function;
 	} else if (strcmp(argv[1], "java") == 0) {
+		printf("Selected: java hash function\n");
 		hfunc = java_hash_function;
 	} else {
-		hfunc = original_hash_function;
+		printf("Selected: student hash function\n");
+		hfunc = student_hash_function;
 	}
 	
-	// inicializacia tabulky 
 	htab_t * tab = htab_init(SIZE_OF_TABLE, hfunc);
 
 	if(tab==NULL)
 	{
-		fprintf(stderr,"Chyba pri alokacii pamate\n");
+		fprintf(stderr,"Error while creating a hash table\n");
 		return 1;
 	}	
 
@@ -58,16 +65,12 @@ int main (int argc, char ** argv)
 	int c;
 
 	FILE * fp = fopen(argv[2],"r");
-	/* nacitavanie slov a pridavanie do tabulky
-	* ak narazi na EOF, testuje ci este nieco neostalo nacitane ak ano
-	* prida do tabulky a vyskoci z cyklu
-	*/
 	while((c = get_word(str,MAX,fp))!=EOF || strcmp(str,"")!=0)
 	{
 		if(htab_lookup_add(tab,str)==NULL)
 		{
 			htab_free(tab); 
-			fprintf(stderr,"Chyba pri alokacii pamate pre novu polozku\n");
+			fprintf(stderr,"Error while loading the table\n");
 			return 1;
 		}
 		if(c==EOF)
@@ -75,9 +78,12 @@ int main (int argc, char ** argv)
 	}
 	
 	if(overfull_war)
-		fprintf(stderr,"[WARNING] Niektore zo slov prekrocilo limit a bolo skratene\n");
+		fprintf(stderr,"[WARNING] some words were truncated\n");
 
-//	htab_foreach(tab,&print_tab); //vypis
+	if (false) {
+		// You can uncomment this for debugging
+		htab_foreach(tab,&print_tab);
+	}
 	htab_free(tab); 
 
 	return 0;

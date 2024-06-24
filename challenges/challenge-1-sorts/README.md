@@ -22,6 +22,10 @@
 
 The program takes as an argument source file with integers delimited by spaces. It converts them to vector and then runs sorting algorithms on the vector.
 
+The program is compilable using make:
+
+    make
+
 You can select the following algorithms:
 
   1. InsertSort: classic algorithm that for each element finds its place in the already sorted structure and inserts it there.

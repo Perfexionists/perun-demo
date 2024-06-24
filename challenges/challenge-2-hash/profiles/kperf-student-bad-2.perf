@@ -1,90 +1,94 @@
 {
   "resources": {
-    "_IO_file_read#0": {
+    "_int_free#0": {
       "amount": [
-        3567620
+        11049000
+      ]
+    },
+    "__tunables_init#0": {
+      "amount": [
+        24585
       ]
     },
     "_IO_getc#0": {
       "amount": [
-        4435784
+        6392469
       ]
     },
-    "__libc_open64#0": {
+    "__libc_setup_tls#0": {
       "amount": [
-        4689
+        1589433
       ]
     },
-    "_int_malloc#0": {
+    "__strcpy_avx2#0": {
       "amount": [
-        235309
-      ]
-    },
-    "_IO_link_in#0": {
-      "amount": [
-        382485
+        7532779
       ]
     },
     "get_word#0": {
       "amount": [
-        24134044
+        4669667
       ]
     },
-    "htab_clear#0": {
+    "htab_lookup_add#0": {
       "amount": [
-        4033246
-      ]
-    },
-    "__strcmp_avx2#0": {
-      "amount": [
-        4542430
-      ]
-    },
-    "djb_hash_function#0": {
-      "amount": [
-        3256285
-      ]
-    },
-    "htab_bucket_count#0": {
-      "amount": [
-        1875868
+        10537776
       ]
     },
     "htab_find#0": {
       "amount": [
-        16861092
+        14200558
       ]
     },
-    "djb_hash_function#1": {
+    "student_hash_function#0": {
       "amount": [
-        7996326
+        12720886
+      ]
+    },
+    "_dl_aux_init#0": {
+      "amount": [
+        21286
       ]
     },
     "_start#0": {
       "amount": [
-        246963
-      ]
-    },
-    "unlink_chunk.constprop.0#0": {
-      "amount": [
-        4040742
+        4
       ]
     }
   },
   "resource_type_map": {
-    "_IO_file_read#0": {
+    "_int_free#0": {
       "command": "wordcount",
-      "time": 0.42422008514404297,
+      "time": 0.35501551628112793,
       "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "[unknown]"
+        },
         {
           "func": "[unknown]"
         }
       ],
-      "uid": "_IO_file_read"
+      "uid": "_int_free"
+    },
+    "__tunables_init#0": {
+      "command": "wordcount",
+      "time": 0.35501551628112793,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "[unknown]"
+        }
+      ],
+      "uid": "__tunables_init"
     },
     "_IO_getc#0": {
       "command": "wordcount",
-      "time": 0.42422008514404297,
+      "time": 0.35501551628112793,
       "trace": [
         {
           "func": "[unknown]"
@@ -92,35 +96,28 @@
       ],
       "uid": "_IO_getc"
     },
-    "__libc_open64#0": {
+    "__libc_setup_tls#0": {
       "command": "wordcount",
-      "time": 0.42422008514404297,
-      "trace": [
-        {
-          "func": "[unknown]"
-        }
-      ],
-      "uid": "__libc_open64"
-    },
-    "_int_malloc#0": {
-      "command": "wordcount",
-      "time": 0.42422008514404297,
-      "trace": [
-        {
-          "func": "[unknown]"
-        }
-      ],
-      "uid": "_int_malloc"
-    },
-    "_IO_link_in#0": {
-      "command": "wordcount",
-      "time": 0.42422008514404297,
+      "time": 0.35501551628112793,
       "trace": [],
-      "uid": "_IO_link_in"
+      "uid": "__libc_setup_tls"
+    },
+    "__strcpy_avx2#0": {
+      "command": "wordcount",
+      "time": 0.35501551628112793,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        }
+      ],
+      "uid": "__strcpy_avx2"
     },
     "get_word#0": {
       "command": "wordcount",
-      "time": 0.42422008514404297,
+      "time": 0.35501551628112793,
       "trace": [
         {
           "func": "__libc_start_call_main"
@@ -131,73 +128,22 @@
       ],
       "uid": "get_word"
     },
-    "htab_clear#0": {
+    "htab_lookup_add#0": {
       "command": "wordcount",
-      "time": 0.42422008514404297,
+      "time": 0.35501551628112793,
       "trace": [
         {
           "func": "__libc_start_call_main"
         },
         {
           "func": "main"
-        },
-        {
-          "func": "htab_free"
         }
       ],
-      "uid": "htab_clear"
-    },
-    "__strcmp_avx2#0": {
-      "command": "wordcount",
-      "time": 0.42422008514404297,
-      "trace": [
-        {
-          "func": "__libc_start_call_main"
-        },
-        {
-          "func": "main"
-        },
-        {
-          "func": "htab_lookup_add"
-        }
-      ],
-      "uid": "__strcmp_avx2"
-    },
-    "djb_hash_function#0": {
-      "command": "wordcount",
-      "time": 0.42422008514404297,
-      "trace": [
-        {
-          "func": "__libc_start_call_main"
-        },
-        {
-          "func": "main"
-        },
-        {
-          "func": "htab_lookup_add"
-        }
-      ],
-      "uid": "djb_hash_function"
-    },
-    "htab_bucket_count#0": {
-      "command": "wordcount",
-      "time": 0.42422008514404297,
-      "trace": [
-        {
-          "func": "__libc_start_call_main"
-        },
-        {
-          "func": "main"
-        },
-        {
-          "func": "htab_lookup_add"
-        }
-      ],
-      "uid": "htab_bucket_count"
+      "uid": "htab_lookup_add"
     },
     "htab_find#0": {
       "command": "wordcount",
-      "time": 0.42422008514404297,
+      "time": 0.35501551628112793,
       "trace": [
         {
           "func": "__libc_start_call_main"
@@ -211,9 +157,9 @@
       ],
       "uid": "htab_find"
     },
-    "djb_hash_function#1": {
+    "student_hash_function#0": {
       "command": "wordcount",
-      "time": 0.42422008514404297,
+      "time": 0.35501551628112793,
       "trace": [
         {
           "func": "__libc_start_call_main"
@@ -228,27 +174,27 @@
           "func": "htab_find"
         }
       ],
-      "uid": "djb_hash_function"
+      "uid": "student_hash_function"
+    },
+    "_dl_aux_init#0": {
+      "command": "wordcount",
+      "time": 0.35501551628112793,
+      "trace": [],
+      "uid": "_dl_aux_init"
     },
     "_start#0": {
       "command": "wordcount",
-      "time": 0.42422008514404297,
+      "time": 0.35501551628112793,
       "trace": [],
       "uid": "_start"
-    },
-    "unlink_chunk.constprop.0#0": {
-      "command": "wordcount",
-      "time": 0.42422008514404297,
-      "trace": [],
-      "uid": "unlink_chunk.constprop.0"
     }
   },
   "models": [],
-  "origin": "db1e84aaa8963119dff0ab1cb782a00c47e6ed61",
+  "origin": "a0ef3be2ea359160f9fdb663288d2dfab30b0121",
   "header": {
     "type": "time",
-    "cmd": "./wordcount djb inputs/bad-2.txt",
-    "workload": "",
+    "cmd": "./wordcount",
+    "workload": "student inputs/bad-2.txt quicksort",
     "units": {
       "time": "sample"
     }
@@ -269,43 +215,43 @@
     },
     "boot_info": "initrd=\\initrd.img WSL_ROOT_INIT=1 panic=-1 nr_cpus=12 hv_utils.timesync_implicit=1 console=hvc0 debug pty.legacy_count=0",
     "mem_details": {
-      "MemTotal": "8026092 kB",
-      "MemFree": "6749172 kB",
-      "MemAvailable": "6985288 kB",
-      "Buffers": "5284 kB",
-      "Cached": "421016 kB",
+      "MemTotal": "8026096 kB",
+      "MemFree": "6244868 kB",
+      "MemAvailable": "6613912 kB",
+      "Buffers": "6112 kB",
+      "Cached": "630176 kB",
       "SwapCached": "0 kB",
-      "Active": "65144 kB",
-      "Inactive": "836348 kB",
-      "Active(anon)": "2124 kB",
-      "Inactive(anon)": "476676 kB",
-      "Active(file)": "63020 kB",
-      "Inactive(file)": "359672 kB",
+      "Active": "273284 kB",
+      "Inactive": "1087636 kB",
+      "Active(anon)": "2520 kB",
+      "Inactive(anon)": "817244 kB",
+      "Active(file)": "270764 kB",
+      "Inactive(file)": "270392 kB",
       "Unevictable": "0 kB",
       "Mlocked": "0 kB",
       "SwapTotal": "2097152 kB",
       "SwapFree": "2097152 kB",
-      "Dirty": "28 kB",
+      "Dirty": "0 kB",
       "Writeback": "0 kB",
-      "AnonPages": "468500 kB",
-      "Mapped": "281108 kB",
-      "Shmem": "3420 kB",
-      "KReclaimable": "58648 kB",
-      "Slab": "120620 kB",
-      "SReclaimable": "58648 kB",
-      "SUnreclaim": "61972 kB",
-      "KernelStack": "5520 kB",
-      "PageTables": "7260 kB",
+      "AnonPages": "714552 kB",
+      "Mapped": "483912 kB",
+      "Shmem": "95140 kB",
+      "KReclaimable": "87208 kB",
+      "Slab": "154892 kB",
+      "SReclaimable": "87208 kB",
+      "SUnreclaim": "67684 kB",
+      "KernelStack": "6944 kB",
+      "PageTables": "11676 kB",
       "NFS_Unstable": "0 kB",
       "Bounce": "0 kB",
       "WritebackTmp": "0 kB",
-      "CommitLimit": "6110196 kB",
-      "Committed_AS": "2325584 kB",
+      "CommitLimit": "6110200 kB",
+      "Committed_AS": "2980224 kB",
       "VmallocTotal": "34359738367 kB",
-      "VmallocUsed": "27716 kB",
+      "VmallocUsed": "29236 kB",
       "VmallocChunk": "0 kB",
       "Percpu": "8960 kB",
-      "AnonHugePages": "120832 kB",
+      "AnonHugePages": "274432 kB",
       "ShmemHugePages": "0 kB",
       "ShmemPmdMapped": "0 kB",
       "FileHugePages": "0 kB",
@@ -316,8 +262,8 @@
       "HugePages_Surp": "0",
       "Hugepagesize": "2048 kB",
       "Hugetlb": "0 kB",
-      "DirectMap4k": "107520 kB",
-      "DirectMap2M": "6076416 kB",
+      "DirectMap4k": "128000 kB",
+      "DirectMap2M": "6055936 kB",
       "DirectMap1G": "11534336 kB"
     },
     "cpu_details": [
@@ -663,10 +609,10 @@
   "collector_info": {
     "name": "kperf",
     "params": {
-      "repeat": 1,
-      "warmup": 0,
       "with_sudo": false,
-      "workload": ""
+      "warmup": 0,
+      "repeat": 1,
+      "workload": "student inputs/bad-2.txt quicksort"
     }
   },
   "postprocessors": []

@@ -16,7 +16,7 @@
 #define max(a,b)            (((a) > (b)) ? (a) : (b))
 #endif
 
-unsigned int original_hash_function(const char *str) 
+unsigned int student_hash_function(const char *str) 
 {
     unsigned int h=0; 
     const unsigned char *p; 
