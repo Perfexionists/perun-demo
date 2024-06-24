@@ -63,6 +63,11 @@ The program is compilable using make:
 
     make
 
+We recommend to start with empty git repo in challenges (Perun currently do some stashing behind the scene, and it might hinder your code changes):
+
+    cd challenges
+    git init; git commit --allow-empty -m "root"
+
 We assume, you have initialized Perun somewhere along the path with `perun init` as well as some git (we recommend to create an empty git for these experiments).
 
 To measure a performance profile run the following:
