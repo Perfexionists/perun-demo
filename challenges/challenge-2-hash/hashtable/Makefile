@@ -13,7 +13,7 @@ CFLAGS=-g -std=c99 -pedantic -Wall -Wextra --coverage
 CppFLAGS=-g -std=c++11 -pedantic -Wall --coverage
 
 #all
-PROGRAMS=wordcount wordcount-dynamic
+PROGRAMS=wordcount-dynamic
 
 # premenna pre zostavenie kniznic
 LIB_FILES=hash_function.o htab_init.o htab_move.o htab_size.o htab_bucket_count.o htab_lookup_add.o htab_find.o htab_foreach.o htab_remove.o htab_clear.o htab_free.o
