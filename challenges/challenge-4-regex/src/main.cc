@@ -34,7 +34,7 @@ int main(int argc, char ** argv)
     while(getline( file, line )){
         std::smatch m;
         std::regex_match(line, m, r);
-        for(auto v: m) std::cout << "# " << v << "|" << std::endl;
+        for(auto v: m) std::cout << "match: " << v << std::endl;
     }
     file.close();
 }
