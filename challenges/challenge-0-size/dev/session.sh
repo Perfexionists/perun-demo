@@ -14,13 +14,14 @@ perun --version
 
 perun init
 perun status
+ls -al
 
 cd challenge-0-size/
 make
 ./squared_count inputs/small-random.txt
-./squared_count inputs/medium-random.txt
 
 perun collect -c "./squared_count inputs/small-random.txt" kperf
+make
 perun collect -c "./squared_count inputs/small-random.txt" kperf
 perun status
 perun showdiff --offline 0@p 1@p report --minimize -o diff
