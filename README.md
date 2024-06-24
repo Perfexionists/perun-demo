@@ -7,6 +7,8 @@ You might need to install the following dependencies:
 
   - cmake
   - perf
+  - g++
+  - python-devel
 
 To start with this demonstration, clone this repository, and install Perun.
 
@@ -128,15 +130,17 @@ We also recommend to run `perun status` or `perun status --short`; this will sho
     It takes a single line to fix unnecessarily repeated initialization.
   </details>
 
-## Challenge 8
+## Challenge 8: Linux Kernel
 
   - **Difficulty**: hard
-  - **Goal**: Just have fun, try to find, what is the problem with the performance.
-  - **Description**: This challenge is an open challenge: we know there are some issues with the Maple Trees structure, which were tailored specifically for kernel. You have to install, two kernels: one that has maple trees and one that does not (we suggest to try the same version with backport of Maple Trees). Then compare the results. Since this is quite a hard challenge, we also provide lots of precollected profiles as well as generated differences. You can check these out, if you have problem running the challenge. The kernel versions were, however, censored.
-  - **Alternative challenges**:
-    1. Try to turn mitigations on or off and observe the results (to turn the mitigations off, you have to run the following: `grubby --update-kernel ALL --args mitigations=off` and then reboot the kernel `reboot`) 
-    2. Try to turn on or off your selinux (don't forget to turn it on afterwards!). To turn the selinux on/off run the following: `grubby --update-kernel ALL --args selinux=0` and reboot your kernel with `reboot`; to turn the selinux back on, run the following: `grubby --update-kernel ALL --remove-args selinux`.
+  - **Goal**: Just have fun, try to find what is the root of the performance problems.
+  - **Description**: This is an open challenge: we know there are some performance issues in kernel for which we do not know the root cause yet. In this challenge, we provide multiple sub-problems that you can dive into. Some of the problems come with pre-collected profiles (as they require setting up and measuring multiple custom kernels), while others will let you measure the kernel by yourselves.
+  - **Problems**:
+    1. Kernel 6.1 introduced a new Maple Tree data structure for memory management. Although developed with performance in mind, it seems to cause performance regressions on some specific kernels.
+    2. Security-Enhanced Linux (SELinux) is a Linux kernel security module. Try to turn it on and off (Don't forget to turn it on afterwards!) and see whether you can spot some notable performance issues.
+    3. Spectre and Meltdown security vulnerabilities mandated the implementation of software mitigations within the kernel. Try to turn them on and off and observe the performance results.
+
   <details>
     <summary>Hint</summary>
-    No hint, enjoy your dive into kernel madness! We have no idea what is wrong.
+    No hint, enjoy your dive into the kernel madness! We have no idea what is wrong.
   </details>
