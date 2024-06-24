@@ -11,7 +11,8 @@
 void printUsage() {
     std::cout << "Usage: program <file> <flags?>\n";
     std::cout << "Flags: quicksort, insertsort, heapsort, quicksort-alt\n"; 
-    std::cout << "       run without flags to run all sorts.\n";
+    std::cout << "  - Run without flags to run all sorts\n";
+    std::cout << "  - Run with any number of flags to run selected sorts\n";
 }
 
 int main(int argc, char** argv) {
@@ -27,7 +28,7 @@ int main(int argc, char** argv) {
     bool quicksort_alt = false;
 
     if (argc == 2) 
-        quicksort = insertsort = heapsort = quicksort2 = true;
+        quicksort = insertsort = heapsort = quicksort_alt = true;
 
     // Collect flags from arguments
     for (int i = 2; i < argc; ++i) {
@@ -54,6 +55,7 @@ int main(int argc, char** argv) {
 
     std::vector<int> numbers;
     std::string line;
+    std::cout << "Loading file";
     while (std::getline(inputFile, line)) {
         std::istringstream iss(line);
         int number;
@@ -61,13 +63,30 @@ int main(int argc, char** argv) {
             numbers.push_back(number);
         }
     }
+    std::cout << " - done\n\n";
     inputFile.close();
     int* input = &numbers[0];
     
-    if (quicksort) QuickSort(input, numbers.size());
-    if (quicksort_alt) QuickSortAlt(input, numbers.size());
-    if (insertsort) InsertSort(input, numbers.size());
-    if (heapsort) HeapSort(input, numbers.size());
+    if (quicksort) {
+        std::cout << "QuickSort";
+        QuickSort(input, numbers.size());
+        std::cout << " - done\n";
+    }
+    if (quicksort_alt) {
+        std::cout << "QuickSort (alt)";
+        QuickSortAlt(input, numbers.size());
+        std::cout << " - done\n";
+    }
+    if (insertsort) {
+        std::cout << "InsertSort";
+        InsertSort(input, numbers.size());
+        std::cout << " - done\n";
+    }
+    if (heapsort) {
+        std::cout << "HeapSort";
+        HeapSort(input, numbers.size());
+        std::cout << " - done\n";
+    }
 
     return 0;
 }

@@ -1,0 +1,573 @@
+{
+  "resources": {
+    "__GI___libc_open#0": {
+      "amount": [
+        51
+      ]
+    },
+    "[libstdc++.so.6.0.30]#0": {
+      "amount": [
+        5963609
+      ]
+    },
+    "_dl_runtime_resolve_xsavec#0": {
+      "amount": [
+        38898
+      ]
+    },
+    "__close_nocancel#0": {
+      "amount": [
+        2
+      ]
+    },
+    "skiplistInsert#0": {
+      "amount": [
+        135370488
+      ]
+    },
+    "__random#0": {
+      "amount": [
+        22507802
+      ]
+    },
+    "_start#0": {
+      "amount": [
+        2
+      ]
+    },
+    "malloc#0": {
+      "amount": [
+        20925230
+      ]
+    },
+    "read#0": {
+      "amount": [
+        5126
+      ]
+    }
+  },
+  "resource_type_map": {
+    "__GI___libc_open#0": {
+      "command": "search",
+      "time": 0.3518528938293457,
+      "trace": [
+        {
+          "func": "[unknown]"
+        }
+      ],
+      "uid": "__GI___libc_open"
+    },
+    "[libstdc++.so.6.0.30]#0": {
+      "command": "search",
+      "time": 0.3518528938293457,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "std::basic_filebuf<char, std::char_traits<char> >::~basic_filebuf"
+        },
+        {
+          "func": "[unknown]"
+        }
+      ],
+      "uid": "[libstdc++.so.6.0.30]"
+    },
+    "_dl_runtime_resolve_xsavec#0": {
+      "command": "search",
+      "time": 0.3518528938293457,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "std::basic_filebuf<char, std::char_traits<char> >::~basic_filebuf"
+        },
+        {
+          "func": "[unknown]"
+        }
+      ],
+      "uid": "_dl_runtime_resolve_xsavec"
+    },
+    "__close_nocancel#0": {
+      "command": "search",
+      "time": 0.3518528938293457,
+      "trace": [],
+      "uid": "__close_nocancel"
+    },
+    "skiplistInsert#0": {
+      "command": "search",
+      "time": 0.3518528938293457,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        }
+      ],
+      "uid": "skiplistInsert"
+    },
+    "__random#0": {
+      "command": "search",
+      "time": 0.3518528938293457,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "skiplistInsert"
+        }
+      ],
+      "uid": "__random"
+    },
+    "_start#0": {
+      "command": "search",
+      "time": 0.3518528938293457,
+      "trace": [],
+      "uid": "_start"
+    },
+    "malloc#0": {
+      "command": "search",
+      "time": 0.3518528938293457,
+      "trace": [],
+      "uid": "malloc"
+    },
+    "read#0": {
+      "command": "search",
+      "time": 0.3518528938293457,
+      "trace": [],
+      "uid": "read"
+    }
+  },
+  "models": [],
+  "origin": "afddac63963b14c2f0b9606204b17d0b9f741562",
+  "header": {
+    "type": "time",
+    "cmd": "./search inputs/medium-random.txt 50 2",
+    "workload": "",
+    "units": {
+      "time": "sample"
+    }
+  },
+  "machine": {
+    "architecture": "x86_64",
+    "system": "Linux",
+    "release": "5.15.146.1-microsoft-standard-WSL2",
+    "host": "dellion",
+    "cpu": {
+      "physical": 6,
+      "total": 12,
+      "frequency": "2208.00Mhz"
+    },
+    "memory": {
+      "total_ram": "7.7 GiB",
+      "swap": "2.0 GiB"
+    },
+    "boot_info": "initrd=\\initrd.img WSL_ROOT_INIT=1 panic=-1 nr_cpus=12 hv_utils.timesync_implicit=1 console=hvc0 debug pty.legacy_count=0",
+    "mem_details": {
+      "MemTotal": "8026096 kB",
+      "MemFree": "6202576 kB",
+      "MemAvailable": "6608688 kB",
+      "Buffers": "6548 kB",
+      "Cached": "666316 kB",
+      "SwapCached": "0 kB",
+      "Active": "242112 kB",
+      "Inactive": "1165208 kB",
+      "Active(anon)": "2576 kB",
+      "Inactive(anon)": "827044 kB",
+      "Active(file)": "239536 kB",
+      "Inactive(file)": "338164 kB",
+      "Unevictable": "0 kB",
+      "Mlocked": "0 kB",
+      "SwapTotal": "2097152 kB",
+      "SwapFree": "2097152 kB",
+      "Dirty": "440 kB",
+      "Writeback": "0 kB",
+      "AnonPages": "722656 kB",
+      "Mapped": "484784 kB",
+      "Shmem": "95140 kB",
+      "KReclaimable": "88256 kB",
+      "Slab": "156396 kB",
+      "SReclaimable": "88256 kB",
+      "SUnreclaim": "68140 kB",
+      "KernelStack": "6992 kB",
+      "PageTables": "11888 kB",
+      "NFS_Unstable": "0 kB",
+      "Bounce": "0 kB",
+      "WritebackTmp": "0 kB",
+      "CommitLimit": "6110200 kB",
+      "Committed_AS": "2996896 kB",
+      "VmallocTotal": "34359738367 kB",
+      "VmallocUsed": "29252 kB",
+      "VmallocChunk": "0 kB",
+      "Percpu": "8960 kB",
+      "AnonHugePages": "272384 kB",
+      "ShmemHugePages": "0 kB",
+      "ShmemPmdMapped": "0 kB",
+      "FileHugePages": "0 kB",
+      "FilePmdMapped": "0 kB",
+      "HugePages_Total": "0",
+      "HugePages_Free": "0",
+      "HugePages_Rsvd": "0",
+      "HugePages_Surp": "0",
+      "Hugepagesize": "2048 kB",
+      "Hugetlb": "0 kB",
+      "DirectMap4k": "128000 kB",
+      "DirectMap2M": "6055936 kB",
+      "DirectMap1G": "11534336 kB"
+    },
+    "cpu_details": [
+      {
+        "processor": "0",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "0",
+        "cpu cores": "6",
+        "apicid": "0",
+        "initial apicid": "0",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "1",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "0",
+        "cpu cores": "6",
+        "apicid": "1",
+        "initial apicid": "1",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "2",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "1",
+        "cpu cores": "6",
+        "apicid": "2",
+        "initial apicid": "2",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "3",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "1",
+        "cpu cores": "6",
+        "apicid": "3",
+        "initial apicid": "3",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "4",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "2",
+        "cpu cores": "6",
+        "apicid": "4",
+        "initial apicid": "4",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "5",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "2",
+        "cpu cores": "6",
+        "apicid": "5",
+        "initial apicid": "5",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "6",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "3",
+        "cpu cores": "6",
+        "apicid": "6",
+        "initial apicid": "6",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "7",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "3",
+        "cpu cores": "6",
+        "apicid": "7",
+        "initial apicid": "7",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "8",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "4",
+        "cpu cores": "6",
+        "apicid": "8",
+        "initial apicid": "8",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "9",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "4",
+        "cpu cores": "6",
+        "apicid": "9",
+        "initial apicid": "9",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "10",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "5",
+        "cpu cores": "6",
+        "apicid": "10",
+        "initial apicid": "10",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "11",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "5",
+        "cpu cores": "6",
+        "apicid": "11",
+        "initial apicid": "11",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {}
+    ]
+  },
+  "collector_info": {
+    "name": "kperf",
+    "params": {
+      "with_sudo": false,
+      "warmup": 0,
+      "repeat": 1,
+      "workload": ""
+    }
+  },
+  "postprocessors": []
+}

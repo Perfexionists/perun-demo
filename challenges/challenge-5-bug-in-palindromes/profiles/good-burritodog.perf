@@ -1,0 +1,1242 @@
+{
+  "resources": {
+    "dl_main#0": {
+      "amount": [
+        97
+      ]
+    },
+    "generatePermutations#0": {
+      "amount": [
+        8693556
+      ]
+    },
+    "generatePermutations#1": {
+      "amount": [
+        28171632
+      ]
+    },
+    "generatePermutations#2": {
+      "amount": [
+        4942808
+      ]
+    },
+    "generatePermutations#3": {
+      "amount": [
+        34145863
+      ]
+    },
+    "generatePermutations#4": {
+      "amount": [
+        99308836
+      ]
+    },
+    "isPalindrome#0": {
+      "amount": [
+        139172678
+      ]
+    },
+    "std::vector<char, std::allocator<char> >::operator[]#0": {
+      "amount": [
+        8662821
+      ]
+    },
+    "std::vector<char, std::allocator<char> >::size#0": {
+      "amount": [
+        12692577
+      ]
+    },
+    "isPalindrome#1": {
+      "amount": [
+        34104228
+      ]
+    },
+    "std::move<char&>#0": {
+      "amount": [
+        34504478
+      ]
+    },
+    "std::swap<char>#0": {
+      "amount": [
+        126170651
+      ]
+    },
+    "std::move<char&>#1": {
+      "amount": [
+        36789383
+      ]
+    },
+    "std::vector<char, std::allocator<char> >::operator[]#1": {
+      "amount": [
+        51151979
+      ]
+    },
+    "std::move<char&>#2": {
+      "amount": [
+        4949075
+      ]
+    },
+    "std::vector<char, std::allocator<char> >::operator[]#2": {
+      "amount": [
+        37435705
+      ]
+    },
+    "std::move<char&>#3": {
+      "amount": [
+        17541
+      ]
+    },
+    "std::swap<char>#1": {
+      "amount": [
+        21186868
+      ]
+    },
+    "std::move<char&>#4": {
+      "amount": [
+        31404150
+      ]
+    },
+    "_start#0": {
+      "amount": [
+        2
+      ]
+    }
+  },
+  "resource_type_map": {
+    "dl_main#0": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "[unknown]"
+        },
+        {
+          "func": "_dl_sysdep_start"
+        }
+      ],
+      "uid": "dl_main"
+    },
+    "generatePermutations#0": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        }
+      ],
+      "uid": "generatePermutations"
+    },
+    "generatePermutations#1": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        }
+      ],
+      "uid": "generatePermutations"
+    },
+    "generatePermutations#2": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        }
+      ],
+      "uid": "generatePermutations"
+    },
+    "generatePermutations#3": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        }
+      ],
+      "uid": "generatePermutations"
+    },
+    "generatePermutations#4": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        }
+      ],
+      "uid": "generatePermutations"
+    },
+    "isPalindrome#0": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        }
+      ],
+      "uid": "isPalindrome"
+    },
+    "std::vector<char, std::allocator<char> >::operator[]#0": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "isPalindrome"
+        }
+      ],
+      "uid": "std::vector<char, std::allocator<char> >::operator[]"
+    },
+    "std::vector<char, std::allocator<char> >::size#0": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "isPalindrome"
+        }
+      ],
+      "uid": "std::vector<char, std::allocator<char> >::size"
+    },
+    "isPalindrome#1": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        }
+      ],
+      "uid": "isPalindrome"
+    },
+    "std::move<char&>#0": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        }
+      ],
+      "uid": "std::move<char&>"
+    },
+    "std::swap<char>#0": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        }
+      ],
+      "uid": "std::swap<char>"
+    },
+    "std::move<char&>#1": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "std::swap<char>"
+        }
+      ],
+      "uid": "std::move<char&>"
+    },
+    "std::vector<char, std::allocator<char> >::operator[]#1": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        }
+      ],
+      "uid": "std::vector<char, std::allocator<char> >::operator[]"
+    },
+    "std::move<char&>#2": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "std::swap<char>"
+        }
+      ],
+      "uid": "std::move<char&>"
+    },
+    "std::vector<char, std::allocator<char> >::operator[]#2": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        }
+      ],
+      "uid": "std::vector<char, std::allocator<char> >::operator[]"
+    },
+    "std::move<char&>#3": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        }
+      ],
+      "uid": "std::move<char&>"
+    },
+    "std::swap<char>#1": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        }
+      ],
+      "uid": "std::swap<char>"
+    },
+    "std::move<char&>#4": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [
+        {
+          "func": "__libc_start_call_main"
+        },
+        {
+          "func": "main"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "generatePermutations"
+        },
+        {
+          "func": "std::swap<char>"
+        }
+      ],
+      "uid": "std::move<char&>"
+    },
+    "_start#0": {
+      "command": "generate",
+      "time": 0.5027596950531006,
+      "trace": [],
+      "uid": "_start"
+    }
+  },
+  "models": [],
+  "origin": "13ff56d898cefd713d162964ff4a9ca09fbc4b56",
+  "header": {
+    "type": "time",
+    "cmd": "./generate",
+    "workload": "burritodog",
+    "units": {
+      "time": "sample"
+    }
+  },
+  "machine": {
+    "architecture": "x86_64",
+    "system": "Linux",
+    "release": "5.15.146.1-microsoft-standard-WSL2",
+    "host": "dellion",
+    "cpu": {
+      "physical": 6,
+      "total": 12,
+      "frequency": "2208.00Mhz"
+    },
+    "memory": {
+      "total_ram": "7.7 GiB",
+      "swap": "2.0 GiB"
+    },
+    "boot_info": "initrd=\\initrd.img WSL_ROOT_INIT=1 panic=-1 nr_cpus=12 hv_utils.timesync_implicit=1 console=hvc0 debug pty.legacy_count=0",
+    "mem_details": {
+      "MemTotal": "8026096 kB",
+      "MemFree": "6193972 kB",
+      "MemAvailable": "6592844 kB",
+      "Buffers": "5760 kB",
+      "Cached": "657668 kB",
+      "SwapCached": "0 kB",
+      "Active": "210576 kB",
+      "Inactive": "1193788 kB",
+      "Active(anon)": "2652 kB",
+      "Inactive(anon)": "833424 kB",
+      "Active(file)": "207924 kB",
+      "Inactive(file)": "360364 kB",
+      "Unevictable": "0 kB",
+      "Mlocked": "0 kB",
+      "SwapTotal": "2097152 kB",
+      "SwapFree": "2097152 kB",
+      "Dirty": "452 kB",
+      "Writeback": "0 kB",
+      "AnonPages": "732292 kB",
+      "Mapped": "483896 kB",
+      "Shmem": "95140 kB",
+      "KReclaimable": "92600 kB",
+      "Slab": "161744 kB",
+      "SReclaimable": "92600 kB",
+      "SUnreclaim": "69144 kB",
+      "KernelStack": "7204 kB",
+      "PageTables": "12144 kB",
+      "NFS_Unstable": "0 kB",
+      "Bounce": "0 kB",
+      "WritebackTmp": "0 kB",
+      "CommitLimit": "6110200 kB",
+      "Committed_AS": "3004120 kB",
+      "VmallocTotal": "34359738367 kB",
+      "VmallocUsed": "29492 kB",
+      "VmallocChunk": "0 kB",
+      "Percpu": "8960 kB",
+      "AnonHugePages": "286720 kB",
+      "ShmemHugePages": "0 kB",
+      "ShmemPmdMapped": "0 kB",
+      "FileHugePages": "0 kB",
+      "FilePmdMapped": "0 kB",
+      "HugePages_Total": "0",
+      "HugePages_Free": "0",
+      "HugePages_Rsvd": "0",
+      "HugePages_Surp": "0",
+      "Hugepagesize": "2048 kB",
+      "Hugetlb": "0 kB",
+      "DirectMap4k": "128000 kB",
+      "DirectMap2M": "6055936 kB",
+      "DirectMap1G": "11534336 kB"
+    },
+    "cpu_details": [
+      {
+        "processor": "0",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "0",
+        "cpu cores": "6",
+        "apicid": "0",
+        "initial apicid": "0",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "1",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "0",
+        "cpu cores": "6",
+        "apicid": "1",
+        "initial apicid": "1",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "2",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "1",
+        "cpu cores": "6",
+        "apicid": "2",
+        "initial apicid": "2",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "3",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "1",
+        "cpu cores": "6",
+        "apicid": "3",
+        "initial apicid": "3",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "4",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "2",
+        "cpu cores": "6",
+        "apicid": "4",
+        "initial apicid": "4",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "5",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "2",
+        "cpu cores": "6",
+        "apicid": "5",
+        "initial apicid": "5",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "6",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "3",
+        "cpu cores": "6",
+        "apicid": "6",
+        "initial apicid": "6",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "7",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "3",
+        "cpu cores": "6",
+        "apicid": "7",
+        "initial apicid": "7",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "8",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "4",
+        "cpu cores": "6",
+        "apicid": "8",
+        "initial apicid": "8",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "9",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "4",
+        "cpu cores": "6",
+        "apicid": "9",
+        "initial apicid": "9",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "10",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "5",
+        "cpu cores": "6",
+        "apicid": "10",
+        "initial apicid": "10",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {
+        "processor": "11",
+        "vendor_id": "GenuineIntel",
+        "cpu family": "6",
+        "model": "158",
+        "model name": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "stepping": "10",
+        "microcode": "0xffffffff",
+        "cpu MHz": "2207.999",
+        "cache size": "9216 KB",
+        "physical id": "0",
+        "siblings": "12",
+        "core id": "5",
+        "cpu cores": "6",
+        "apicid": "11",
+        "initial apicid": "11",
+        "fpu": "yes",
+        "fpu_exception": "yes",
+        "cpuid level": "21",
+        "wp": "yes",
+        "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities",
+        "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds mmio_stale_data retbleed gds",
+        "bogomips": "4415.99",
+        "clflush size": "64",
+        "cache_alignment": "64",
+        "address sizes": "39 bits physical, 48 bits virtual",
+        "power management": ""
+      },
+      {}
+    ]
+  },
+  "collector_info": {
+    "name": "kperf",
+    "params": {
+      "with_sudo": false,
+      "warmup": 0,
+      "repeat": 1,
+      "workload": "burritodog"
+    }
+  },
+  "postprocessors": []
+}

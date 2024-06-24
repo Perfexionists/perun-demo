@@ -126,7 +126,7 @@ void findBestCorrespondingTraces(const std::vector<std::vector<std::string>>& ba
 }
 
 int main(int argc, char* argv[]) {
-    if (argc < 3) {
+    if (argc < 3 || argc > 3) {
         std::cerr << "Usage: " << argv[0] << " <baseline_file> <target_file>\n";
         return 1;
     }

@@ -11,7 +11,7 @@
 
 
 int MAX_HEIGHT = 2;
-int LEVEL_PROBABILITY = 2;
+int LEVEL_PROBABILITY = 10;
 
 void printUsage() {
     std::cout << "usage: ./search <file> <skiplist_height> <skiplist_probability>" << std::endl;
@@ -19,12 +19,7 @@ void printUsage() {
 
 int main(int argc, char** argv) {
 
-    // init the skip list and list
-    Skiplist skiplist = skiplistCreate();
-    SLList list;
-    SLList_init(&list);
     bool use_skiplists = false;
-
     if (argc < 2 || argc == 3 || argc > 4) {
         printUsage();
         return 1;
@@ -41,6 +36,14 @@ int main(int argc, char** argv) {
         }
     }
 
+    std::cout << "max height: " << MAX_HEIGHT << std::endl;
+    std::cout << "probability: " << LEVEL_PROBABILITY << std::endl;
+
+    // init the skip list and list
+    Skiplist skiplist = skiplistCreate();
+    SLList list;
+    SLList_init(&list);
+
     const char* filename = argv[1];
     std::ifstream inputFile(filename);
     std::string line;
@@ -56,20 +59,30 @@ int main(int argc, char** argv) {
         }
     }
 
+    if (use_skiplists) {
+        std::cout << "skiplist constructed" << std::endl;
+    } else {
+        std::cout << "single linked list constructed" << std::endl;
+    }
+
     srand(time(NULL));
     std::random_device rd;
     std::mt19937 gen(rd());
     std::uniform_int_distribution<> dis(0, INT_MAX-1);
 
     for (int i = 0; i < 10; i++) {
+        std::cout << "search " << i;
         if (use_skiplists) {
             SLList_search(&list, i);
         } else {
             skiplistSearch(skiplist, i);
         }
+        std::cout << " - done" << std::endl;
     }
 
     // Cleanup
+    std::cout << "cleaning" << std::endl;
     SLList_destroy(&list);
     skiplistDestroy(skiplist);
+    std::cout << " - done" << std::endl;
 }

@@ -56,18 +56,32 @@ We also recommend to run `perun status` or `perun status --short`; this will sho
 
   - **Difficulty**: easy
   - **Goal**: Sort the complexities
-  - **Description**: You used AI and several interns to generate several sorting algorithm, that will sort the numbers that are obtained from your customer. Now you need to pick *two* of those algorithms to integrate them in practice. While, you sure could analyze their code, your boss needs to see some hard data. Your program takes input file with list of numbers and sorts them using each of the algorithm. You can also run each of them separately by specifying their name. 
+  - **Description**: You used AI and several interns to generate some sorting
+  algorithms, that will sort the numbers that are logged by your customers. Now
+  you need to pick *one* of those algorithms to integrate it in practice. While,
+  you sure could analyze their code, your boss needs to see some hard data, why
+  it is performing good on your customer's data. Your program takes an input
+  file with list of numbers (delimited by space) and sorts them using the
+  selected algorithm. You can also run each of them separately by specifying
+  their name. Try to find the best performing algorithm.
   - **Usage**: `./sort_file <input> | <input> <alg1> ... <algn>`
   <details>
     <summary>Hint</summary>
-    Though, some algorithms are bundled together as having the same complexity, one of them is an impostor: its quadratic behaviour is forced, when it has to sort already or reversely-sorted inputs.
+    Though, some algorithms are bundled together as having the same complexity,
+    some of them are impostors: their quadratic behaviour might be forced, when it has
+    to sort already or reversely-sorted inputs.
   </details>
 
 ## Challenge 2: The Hashing Words
 
   - **Difficulty**: easy
   - **Goal**: Find the best hashing function
-  - **Description**: Your boss gave you a JIRA ticket for implementation of the count of the words in the file. Your mentor recommended you to use hash tables. However, the ChatGPT gave you several different hash functions, and you have no idea which one is the best. Try to find the best hash function out of the three, that will count the examples file from your customer the fastest.
+  - **Description**: Your boss gave you a JIRA ticket for implementation of the
+  count of the words in the file. Your mentor recommended you to use hash
+  tables. However, the ChatGPT gave you several different hash functions, and
+  you have no idea which one is the best. Try to find the best hash function out
+  of the three, that will count the examples file from your customer the
+  fastest.
   - **Usage**: `./wordcount <djb|java|original> <input>`
   <details>
     <summary>Hint</summary>
@@ -78,8 +92,16 @@ We also recommend to run `perun status` or `perun status --short`; this will sho
 ## Challenge 3: The Skipping Lists
 
   - **Difficulty**: easy
-  - **Goal**: Optimize the parameters of skiplists
-  - **Description**: You "inherited" a legacy code from your previous colleague. He has been using single link lists to implement a queue of requests. The requests are processed in sorted order, however, sometimes requests with certain id are cancelled, so the whole list has to be searched. You decided to optimize this process: you heard about the amazing skip-list structure for faster lookup. You implemented them, but you are not satisfied with the performance. You have to fine-tune two of its parameters: the height and the probability.
+  - **Goal**: Sort the parameters of skiplists in terms of their efficiency.
+  - **Description**: You "inherited" a legacy code from your previous colleague.
+  He has been using single link lists to implement a queue of requests from your
+  customers. The requests are processed in sorted order, however, sometimes
+  requests with certain ids are cancelled, so the whole list has to be searched.
+  You decided to optimize this process: you heard about this amazing skip-list
+  structure that allows faster lookup. It basically allows you to skip bigger
+  portions of the list. You implemented them, but you are not satisfied with the
+  performance. Now, you have to fine-tune two of its parameters: the height and
+  the probability. Try to find the optimal solution.
   - **Usage**: `./search <input> <height> <probability>`
   <details>
     <summary>Hint</summary>
@@ -102,7 +124,13 @@ We also recommend to run `perun status` or `perun status --short`; this will sho
 
   - **Difficulty**: medium
   - **Goal**: Find and fix the bug
-  - **Description**: Your boss has assigned you a project to work on. One customer wants a suggester of a palindromes based on his username or string, or whatever. You do not question your boss and so you delegate this to your fresh intern. He implemented the code, tested it on tacocat, and it worked. But the customer called `amazing_tacocat` has experienced some issues with the code. You should fix the issue and make the palindrome generator great again.
+  - **Description**: Your boss has assigned you a project to work on. One
+  customer wants a suggester of a palindromes based on his username or string,
+  or whatever. You do not question your boss and so you delegate this to your
+  fresh intern. He implemented the code, tested it on `tacocat`, and it worked.
+  But the customer called `amazing_tacocat` has experienced some performance
+  issues with the code. You should fix the issue and make the palindrome
+  generator great again.
   - **Usage**: `./generate <string>`
   <details>
     <summary>Hint</summary>
@@ -113,7 +141,20 @@ We also recommend to run `perun status` or `perun status --short`; this will sho
 
   - **Difficulty**: medium
   - **Goal**: Optimize the code 
-  - **Description**: We finally leave the artificial problems and go for something real. This is a problem, that we have been facing when analysing kernel for some time. The kernel is quite evolving project, with each release, hundreds of functions are changed, hundreds are removed, and hundreds are added. When performance analysts check the code, they not only want to find the functions that might have changed (in terms of performance), but one usually needs some other trace to compare the performance against. This is needed both for automatic and manual analysis. The project contains an AI-generated code for finding good match in previous results (so called baseline) for traces from newly generated data (so called target). The code is quite inefficient. Try to make it more efficient. There are no limits to your imagination. However, since the code is quite complex, we recommend you to look at the computing cost of two traces: there are lots of recursive calls, right?
+  - **Description**: We finally leave the artificial problems and go for
+  something real. This is a problem, that we have been facing when analysing
+  kernel for some time. The kernel is quite evolving project, with each release,
+  hundreds of functions are changed, hundreds are removed, and hundreds are
+  added. When performance analysts check the code, they not only want to find
+  the functions that might have changed (in terms of performance), but one
+  usually needs some other trace to compare the performance against. This is
+  needed both for automatic and manual analysis. The challenge contains an
+  AI-generated code for finding good match in previous results (so called
+  baseline) for traces from newly generated data (so called target). But the
+  code is quite inefficient. Try to make it more efficient. There are no limits
+  to your imagination. However, since the code is quite complex, we recommend
+  you to look at the computing cost of two traces (the function
+  `computeTransformationCost`): there are lots of recursive calls, right?
   - **Usage**: `./compare_traces <baseline_traces> <target_traces>`
   <details>
     <summary>Hint</summary>

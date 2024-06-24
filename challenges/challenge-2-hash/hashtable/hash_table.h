@@ -58,6 +58,6 @@ void htab_free(htab_t * t);
 //hashovacia funkcia
 unsigned int djb_hash_function(const char *str); 
 unsigned int java_hash_function(const char *str); 
-unsigned int original_hash_function(const char *str); 
+unsigned int student_hash_function(const char *str); 
 
 #endif // HASH_TABLE_H
