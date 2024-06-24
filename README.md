@@ -1,7 +1,7 @@
 # Demonstration of using Perun on various performance aspects
 
 This repository contains a various challenges and test projects meant for demonstration of the
-capabilities of Perun tool suite.
+capabilities of Perun tool suite (or other performance suites).
 
 You might need to install the following dependencies:
 
@@ -10,17 +10,29 @@ You might need to install the following dependencies:
   - g++
   - python-devel
 
+
+We recommend using `venv` and `Python 3.11` to avoid any issues (especially with dependencies):
+
+    pip3 install virtualenv
+    python3 -m venv <venv-name>
+    source <venv-name>/bin/activate
+
 To start with this demonstration, clone this repository, and install Perun.
 
     pip3 install perun-toolsuite
 
-Perun is similar to git: it needs a Perun instance initialized for your project. Either you can init Perun for each challenge individually, as follows:
+We recommend to start with empty git repo in challenges (Perun currently do some stashing behind the scene, and it might hinder your code changes):
+
+    cd challenges
+    git init; git commit --allow-empty -m "root"
+
+Perun is similar to git: it needs a Perun instance initialized for your project. Either you can init Perun for each challenge individually:
 
     cd challenges/challenge-1-sorts/
     perun init
     ...
 
-The profiles will be stored in `./challenges/challenge-1-sorts/.perun/jobs`
+Generated profiles will be stored in `./challenges/challenge-1-sorts/.perun/jobs`
 
 Alternatively, you can init Perun for all challenges.
 
@@ -30,27 +42,49 @@ Alternatively, you can init Perun for all challenges.
 
 The profiles will be stored in `./challenges/.perun/jobs`.
 
-We recommend using `venv` and `Python 3.11` to avoid any issues (especially with dependencies).
+Challenge 1-6 should be easily installable using single `make`; Challenges 7+
+are harder, and might require more initializations or using a virtual machine.
 
-Challenge 1-6 should be easily installable using `make`; Challenges 7+ are harder, and might require more initializations or using a virtual machine.
+Both the repository as well as Perun might still contain bugs and issues. We
+apologize, for any inconvenience. You might have trouble installing Perun, as it
+has lots of dependencies and lots of modules that might break some things. We
+are aware of some of the issues (issues with new release of `numpy`, issues with
+`jinja2` templates and editable install); also we have yet to solve the wheel
+installation for pip releases, hence the install might fail for some
+dependencies.
 
-Both the repository as well as Perun might still contain bugs and issues. We apologize, for any inconvenience. You might have trouble installing Perun, as it has lots of dependencies and lots of modules that might break some things. We are aware of some of the issues (issues with new release of `numpy`, issues with `jinja2` templates and editable install); also we have yet to solve the wheel installation for pip releases, hence the install might fail for some dependencies.
+## Troubleshooting
+
+  1. You cannot see the function in the generated graphs? Maybe it is simply so small, that it is omitted? Check the tabular results or the profiles themselves.
+  2. You got `[ERROR] unexpected error: AttributeError: 'GitRepository' object has no attribute 'git_repo'`: you have to have some git repository; run `git init`
+  3. You got `[ERROR] unexpected error: perun.utils.exceptions.VersionControlSystemException: parameter 'HEAD' could not be found: Ref 'HEAD' did not resolve to an object`: you have to have some commit; run `git commit --allow-empty -m "root"`.
+  4. You see some `[unknown]` in the results? This is due to the fact, that some parts of dependencies/kernel were not compiled with frame pointer (`-fno-omit-frame-pointer`); this should not happen to the crutial parts of the challenges, though, and there is not much we can do about it.
 
 ## Generic guide
 
 To collect the data use `perun collect` as follows:
 
-    perun collect -c "<COMMAND>" kperf --repeat 1
+    perun collect -c "<COMMAND>" kperf
 
-This will measure the data using perf-based collector, runs single repeat (it should be enough) and few warm-ups before them. The resulting profile is stored in `.perun/jobs` directory.
+This will measure the data using perf-based collector, runs single repeat (it
+should be enough) and no warm-ups before them. For more complex commands you
+have to specify them in string. The resulting profile is stored in `.perun/jobs`
+directory.
 
 Run several such commands. Then you can compare these using our diff views:
 
     perun showdiff --offline <PROFILE1> <PROFILE2> report --minimize -o <OUTPUTNAME>
 
-The `--offline` parameter generates self-contained HTML files (otherwise, the visualizations require internet connection because of dependencies). The `--minimize` parameter is recommended, as it folds generic templates (the resulting names are huge) as well as some minor minimizations of the results for better brevity. You can omit the `-o` parameter; Perun automatically generates suitable name (but looooooong).
+The `--offline` parameter generates self-contained HTML files (otherwise, the
+visualizations require internet connection because of dependencies). The
+`--minimize` parameter is recommended, as it folds generic templates (the
+resulting names are huge) as well as some minor minimizations of the results for
+better brevity. You can omit the `-o` parameter; Perun automatically generates
+suitable name (but it is looooooong).
 
-We also recommend to run `perun status` or `perun status --short`; this will show all registered profiles in your perun instance. You can then use tags, such as `0@p` to refer to last collected profile.
+We also recommend to run `perun status`; this will show all registered profiles
+in your perun instance. You can then use tags, such as `0@p` to refer to last
+collected profile.
 
 ## Challenge 1: The Sorting Hat
 
