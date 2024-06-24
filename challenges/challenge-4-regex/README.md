@@ -33,6 +33,7 @@ We assume, you have initialized Perun somewhere along the path with `perun init`
 
 To measure a performance profile run the following:
 
+    perun collect -c "./match_regex <REGEX_FILE> <INPUT_FILE>" kperf
     perun collect -c "./match_regex regex/classname-regex-1.txt inputs/classname-match.txt" kperf
     perun collect -c "./match_regex regex/classname-regex-1.txt inputs/classname-non-match-1.txt" kperf
 
